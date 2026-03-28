@@ -197,6 +197,32 @@ CREATE TABLE IF NOT EXISTS Placements (
 );
 SET FOREIGN_KEY_CHECKS = 0;
 
+CREATE TABLE IF NOT EXISTS Users (
+    user_id      INT           AUTO_INCREMENT PRIMARY KEY,
+    username     VARCHAR(100)  NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    role         ENUM('student', 'company', 'admin') NOT NULL,
+    entity_id    INT           DEFAULT NULL,
+    -- entity_id links to student_id (if role=student)
+    -- or company_id (if role=company)
+    -- or NULL (if role=admin)
+    created_at   TIMESTAMP     DEFAULT CURRENT_TIMESTAMP
+);
+ 
+-- ============================================================
+-- Seed: Default Admin Account
+-- username: admin
+-- password: admin123  (change this after first login!)
+-- Password below is bcrypt hash of "admin123"
+-- ============================================================
+INSERT INTO Users (username, password_hash, role, entity_id)
+VALUES (
+    'admin',
+    '$2b$12$KIXBNMzIuIkCGkHCHpGfKOWlB5PL3MiBqNlYQCK3Qh5z5zQZQZQZa',
+    'admin',
+    NULL
+)
+ON DUPLICATE KEY UPDATE username = username;
 -- ------------------------------------------------------------
 -- Skills  (60 rows)
 -- ------------------------------------------------------------
