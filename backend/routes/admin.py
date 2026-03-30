@@ -489,3 +489,84 @@ def report_at_risk():
         fetchall=True
     )
     return jsonify(data), 200
+
+
+# ===========================================================
+# SECTION G: ANNOUNCEMENTS
+# ===========================================================
+
+# ----------------------------------------------------------
+# GET /api/announcements
+# Shared: any logged-in user can read announcements
+# (registered separately on the app in app.py via admin_bp prefix override)
+# ----------------------------------------------------------
+@admin_bp.route("/announcements", methods=["GET"])
+def list_announcements():
+    """List all non-expired announcements. Any logged-in user can read."""
+    if "user_id" not in session:
+        return jsonify({"error": "Please log in"}), 401
+
+    role = session.get("role", "student")
+
+    data = query(
+        """SELECT announcement_id, title, body, priority, target_role,
+                  created_at, expires_at
+           FROM Announcements
+           WHERE (expires_at IS NULL OR expires_at >= CURDATE())
+             AND (target_role = 'all' OR target_role = %s)
+           ORDER BY
+             FIELD(priority,'Urgent','Warning','Info'),
+             created_at DESC""",
+        (role,), fetchall=True
+    )
+    return jsonify(data), 200
+
+
+# ----------------------------------------------------------
+# POST /api/admin/announcements
+# Admin only: create an announcement
+# Body: { "title":"...", "body":"...", "priority":"Info|Warning|Urgent",
+#         "target_role":"all|student|company", "expires_at":"2025-12-31" }
+# ----------------------------------------------------------
+@admin_bp.route("/announcements", methods=["POST"])
+def create_announcement():
+    err = admin_required()
+    if err: return err
+
+    data = request.get_json()
+    if not data.get("title") or not data.get("body"):
+        return jsonify({"error": "title and body are required"}), 400
+
+    priority    = data.get("priority", "Info")
+    target_role = data.get("target_role", "all")
+    expires_at  = data.get("expires_at")
+
+    if priority not in ("Info", "Warning", "Urgent"):
+        return jsonify({"error": "priority must be Info, Warning, or Urgent"}), 400
+    if target_role not in ("all", "student", "company"):
+        return jsonify({"error": "target_role must be all, student, or company"}), 400
+
+    ann_id = query(
+        """INSERT INTO Announcements (title, body, priority, target_role, created_by, expires_at)
+           VALUES (%s, %s, %s, %s, %s, %s)""",
+        (data["title"], data["body"], priority, target_role,
+         session["user_id"], expires_at),
+        commit=True
+    )
+    return jsonify({"message": "Announcement created", "announcement_id": ann_id}), 201
+
+
+# ----------------------------------------------------------
+# DELETE /api/admin/announcements/<announcement_id>
+# Admin only: remove an announcement
+# ----------------------------------------------------------
+@admin_bp.route("/announcements/<int:announcement_id>", methods=["DELETE"])
+def delete_announcement(announcement_id):
+    err = admin_required()
+    if err: return err
+
+    query(
+        "DELETE FROM Announcements WHERE announcement_id = %s",
+        (announcement_id,), commit=True
+    )
+    return jsonify({"message": "Announcement deleted"}), 200

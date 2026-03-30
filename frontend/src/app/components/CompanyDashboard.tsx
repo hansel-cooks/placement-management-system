@@ -4,6 +4,7 @@ import companyService, { CompanyDashboardStats, CompanyJobListing } from '@/lib/
 import { useAuthStore } from '@/store/authStore';
 import { Skeleton } from './ui/skeleton';
 import { NavLink } from 'react-router';
+import api from '@/lib/api';
 
 export function CompanyDashboard() {
   const { user } = useAuthStore();
@@ -16,6 +17,18 @@ export function CompanyDashboard() {
   const { data: jobs, isLoading: jobsLoading } = useQuery({
     queryKey: ['companyJobs'],
     queryFn: companyService.getJobs,
+  });
+
+  const { data: health, isLoading: healthLoading } = useQuery({
+    queryKey: ['companyHealth'],
+    queryFn: async () => {
+      const r = await api.get('/company/dashboard/health');
+      return r.data as {
+        response_rate: number;
+        avg_time_to_hire_days: number | null;
+        attention_items: { type: string; level: string; message: string }[];
+      };
+    },
   });
 
   return (
@@ -131,39 +144,56 @@ export function CompanyDashboard() {
               <div>
                 <div className="flex justify-between text-sm mb-1.5">
                   <span className="text-white/70">Response rate</span>
-                  <span>92%</span>
+                  <span>{healthLoading ? '…' : `${health?.response_rate ?? 0}%`}</span>
                 </div>
                 <div className="h-1.5 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-[#B6922E] w-[92%]" />
+                  <div className="h-full bg-[#B6922E] transition-all duration-500" style={{ width: `${health?.response_rate ?? 0}%` }} />
                 </div>
               </div>
               <div>
                 <div className="flex justify-between text-sm mb-1.5">
-                  <span className="text-white/70">Average time-to-hire</span>
-                  <span>14 days</span>
+                  <span className="text-white/70">Avg. time-to-hire</span>
+                  <span>
+                    {healthLoading ? '…' : health?.avg_time_to_hire_days != null ? `${health.avg_time_to_hire_days} days` : 'N/A'}
+                  </span>
                 </div>
                 <div className="h-1.5 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-[#1F6F43] w-[75%]" />
+                  <div
+                    className="h-full bg-[#1F6F43] transition-all duration-500"
+                    style={{ width: health?.avg_time_to_hire_days != null ? `${Math.min(health.avg_time_to_hire_days / 30 * 100, 100)}%` : '0%' }}
+                  />
                 </div>
               </div>
             </div>
-            <button className="w-full mt-6 py-2.5 bg-white/5 border border-white/10 rounded-xl text-sm font-medium hover:bg-white/10 transition-colors">
-              Download Full Report
-            </button>
+            <NavLink
+              to="/analytics"
+              className="block w-full mt-6 py-2.5 bg-white/5 border border-white/10 rounded-xl text-sm font-medium hover:bg-white/10 transition-colors text-center"
+            >
+              View Full Analytics
+            </NavLink>
           </div>
 
           <div className="bg-white rounded-2xl p-6 border border-[#E7E9EE] shadow-[0_1px_2px_rgba(16,24,40,0.04)]">
             <h3 className="text-lg font-semibold text-[#0B1426] mb-4">Required attention</h3>
-            <div className="space-y-4">
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 mt-1.5 bg-[#EF4444] rounded-full" />
-                <p className="text-sm text-[#0B1426]">4 pending interface feedbacks due tomorrow</p>
+            {healthLoading ? (
+              <div className="space-y-3">
+                <Skeleton className="h-5 w-full" />
+                <Skeleton className="h-5 w-4/5" />
               </div>
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 mt-1.5 bg-[#F59E0B] rounded-full" />
-                <p className="text-sm text-[#0B1426]">Software Engineer post expires in 2 days</p>
+            ) : health?.attention_items?.length ? (
+              <div className="space-y-4">
+                {health.attention_items.map((item, i) => (
+                  <div key={i} className="flex items-start gap-3">
+                    <div className={`w-2 h-2 mt-1.5 rounded-full flex-shrink-0 ${
+                      item.level === 'warning' ? 'bg-[#EF4444]' : 'bg-[#F59E0B]'
+                    }`} />
+                    <p className="text-sm text-[#0B1426]">{item.message}</p>
+                  </div>
+                ))}
               </div>
-            </div>
+            ) : (
+              <p className="text-sm text-[#5B6472]">No outstanding items — all clear! ✓</p>
+            )}
           </div>
         </div>
       </div>

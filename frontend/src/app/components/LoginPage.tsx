@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
 import { useAuthStore } from '@/store/authStore';
-import api from '@/lib/api';
+import api, { clearCsrfCache } from '@/lib/api';
 
 type Role = 'student' | 'recruiter';
 
@@ -21,6 +21,7 @@ export function LoginPage() {
     try {
       const res = await api.post('/auth/login', { username, password });
       const { user } = res.data;
+      clearCsrfCache(); // flush stale token so next mutation gets a fresh one
       setUser({
         user_id: user.user_id,
         username: user.username,

@@ -574,3 +574,78 @@ def respond_offer(placement_id):
         query("UPDATE Applications SET status=%s WHERE application_id=%s", (new_app_status, app_id_row["application_id"]), commit=True)
 
     return jsonify({"message": f"Offer {decision.lower()}"}), 200
+
+
+# ----------------------------------------------------------
+# GET /api/student/analytics
+# Personal career analytics for the student dashboard
+# ----------------------------------------------------------
+@student_bp.route("/analytics", methods=["GET"])
+def analytics():
+    err = student_required()
+    if err: return err
+
+    student_id = session["entity_id"]
+
+    # Application funnel
+    funnel = query(
+        """SELECT
+               COUNT(*) AS total_applied,
+               SUM(CASE WHEN status IN ('Shortlisted','Interview_Scheduled','Selected','Offer_Accepted','Offer_Declined') THEN 1 ELSE 0 END) AS shortlisted,
+               SUM(CASE WHEN status IN ('Interview_Scheduled','Selected','Offer_Accepted','Offer_Declined') THEN 1 ELSE 0 END) AS interviewed,
+               SUM(CASE WHEN status IN ('Selected','Offer_Accepted') THEN 1 ELSE 0 END) AS selected,
+               SUM(CASE WHEN status = 'Offer_Accepted' THEN 1 ELSE 0 END) AS offers_accepted,
+               SUM(CASE WHEN status = 'Rejected' THEN 1 ELSE 0 END) AS rejected
+           FROM Applications WHERE student_id = %s""",
+        (student_id,), fetchone=True
+    )
+
+    # Monthly application activity (last 6 months)
+    monthly = query(
+        """SELECT YEAR(applied_at) AS yr, MONTH(applied_at) AS mo,
+                  MONTHNAME(applied_at) AS month_name,
+                  COUNT(*) AS applications
+           FROM Applications
+           WHERE student_id = %s
+             AND applied_at >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH)
+           GROUP BY YEAR(applied_at), MONTH(applied_at), MONTHNAME(applied_at)
+           ORDER BY yr, mo""",
+        (student_id,), fetchall=True
+    )
+
+    # Top skills matched across jobs I applied to
+    top_skills = query(
+        """SELECT sk.skill_name, sk.skill_type, COUNT(*) AS job_count
+           FROM Applications a
+           JOIN Skill_Mappings sm ON sm.entity_type='Job' AND sm.entity_id=a.job_id
+           JOIN Skills sk ON sk.skill_id = sm.skill_id
+           WHERE a.student_id = %s
+           GROUP BY sk.skill_id, sk.skill_name, sk.skill_type
+           ORDER BY job_count DESC
+           LIMIT 8""",
+        (student_id,), fetchall=True
+    )
+
+    # My skills for gap analysis
+    my_skills = query(
+        """SELECT sk.skill_name
+           FROM Skill_Mappings sm
+           JOIN Skills sk ON sm.skill_id = sk.skill_id
+           WHERE sm.entity_type = 'Student' AND sm.entity_id = %s""",
+        (student_id,), fetchall=True
+    )
+    my_skill_names = {s["skill_name"] for s in my_skills}
+
+    # Enrich top_skills with gap flag
+    enriched_skills = []
+    for s in top_skills:
+        enriched_skills.append({
+            **s,
+            "i_have_it": s["skill_name"] in my_skill_names
+        })
+
+    return jsonify({
+        "funnel": funnel,
+        "monthly_activity": monthly,
+        "top_skills_in_applied_jobs": enriched_skills
+    }), 200

@@ -480,3 +480,183 @@ def dashboard():
         (session["entity_id"],), fetchone=True
     )
     return jsonify(stats), 200
+
+
+# ----------------------------------------------------------
+# GET /api/company/dashboard/health
+# Real recruitment health metrics + attention items
+# ----------------------------------------------------------
+@company_bp.route("/dashboard/health", methods=["GET"])
+def dashboard_health():
+    err = company_required()
+    if err: return err
+
+    company_id = session["entity_id"]
+
+    # Response rate: (apps that got a non-Applied status) / total
+    rate_row = query(
+        """SELECT
+               COUNT(*) AS total,
+               SUM(CASE WHEN a.status != 'Applied' THEN 1 ELSE 0 END) AS responded
+           FROM Applications a
+           JOIN Job_Postings jp ON a.job_id = jp.job_id
+           WHERE jp.company_id = %s""",
+        (company_id,), fetchone=True
+    )
+    total_apps = rate_row["total"] or 0
+    responded  = rate_row["responded"] or 0
+    response_rate = round(responded * 100.0 / total_apps, 1) if total_apps else 0
+
+    # Avg time-to-hire: days from applied_at to placed_at
+    hire_row = query(
+        """SELECT ROUND(AVG(DATEDIFF(p.placed_at, a.applied_at)), 1) AS avg_days
+           FROM Placements p
+           JOIN Applications a ON p.application_id = a.application_id
+           JOIN Job_Postings jp ON a.job_id = jp.job_id
+           WHERE jp.company_id = %s""",
+        (company_id,), fetchone=True
+    )
+    avg_days = hire_row["avg_days"] if hire_row and hire_row["avg_days"] else None
+
+    # Attention items: jobs expiring within 7 days
+    expiring_jobs = query(
+        """SELECT job_id, job_title, application_deadline
+           FROM Job_Postings
+           WHERE company_id = %s
+             AND is_approved = TRUE
+             AND application_deadline BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 7 DAY)
+           ORDER BY application_deadline ASC
+           LIMIT 5""",
+        (company_id,), fetchall=True
+    )
+
+    # Attention items: jobs with unreviewed (Applied) applications
+    unreviewed = query(
+        """SELECT jp.job_id, jp.job_title,
+                  COUNT(a.application_id) AS unreviewed_count
+           FROM Job_Postings jp
+           JOIN Applications a ON jp.job_id = a.job_id
+           WHERE jp.company_id = %s
+             AND a.status = 'Applied'
+             AND jp.is_approved = TRUE
+           GROUP BY jp.job_id, jp.job_title
+           HAVING unreviewed_count > 0
+           ORDER BY unreviewed_count DESC
+           LIMIT 5""",
+        (company_id,), fetchall=True
+    )
+
+    attention_items = []
+    for j in expiring_jobs:
+        deadline_str = str(j["application_deadline"])[:10] if j["application_deadline"] else ""
+        attention_items.append({
+            "type": "expiring",
+            "level": "warning",
+            "message": f"{j['job_title']} posting expires on {deadline_str}"
+        })
+    for u in unreviewed:
+        attention_items.append({
+            "type": "unreviewed",
+            "level": "info",
+            "message": f"{u['unreviewed_count']} unreviewed application{'s' if u['unreviewed_count'] != 1 else ''} for {u['job_title']}"
+        })
+
+    return jsonify({
+        "response_rate": response_rate,
+        "avg_time_to_hire_days": avg_days,
+        "attention_items": attention_items
+    }), 200
+
+
+# ----------------------------------------------------------
+# GET /api/company/jobs/<job_id>/skills
+# List required skills for a job posting
+# ----------------------------------------------------------
+@company_bp.route("/jobs/<int:job_id>/skills", methods=["GET"])
+def list_job_skills(job_id):
+    err = company_required()
+    if err: return err
+
+    job = query("SELECT job_id FROM Job_Postings WHERE job_id=%s AND company_id=%s",
+                (job_id, session["entity_id"]), fetchone=True)
+    if not job:
+        return jsonify({"error": "Job not found"}), 404
+
+    skills = query(
+        """SELECT sk.skill_id, sk.skill_name, sk.skill_type
+           FROM Skill_Mappings sm
+           JOIN Skills sk ON sm.skill_id = sk.skill_id
+           WHERE sm.entity_type = 'Job' AND sm.entity_id = %s
+           ORDER BY sk.skill_name""",
+        (job_id,), fetchall=True
+    )
+    return jsonify(skills), 200
+
+
+# ----------------------------------------------------------
+# POST /api/company/jobs/<job_id>/skills
+# Add a required skill to a job posting
+# Body: { "skill_name": "Python", "skill_type": "Technical" }
+# ----------------------------------------------------------
+@company_bp.route("/jobs/<int:job_id>/skills", methods=["POST"])
+def add_job_skill(job_id):
+    err = company_required()
+    if err: return err
+
+    job = query("SELECT job_id FROM Job_Postings WHERE job_id=%s AND company_id=%s",
+                (job_id, session["entity_id"]), fetchone=True)
+    if not job:
+        return jsonify({"error": "Job not found"}), 404
+
+    data       = request.get_json()
+    skill_name = data.get("skill_name", "").strip()
+    skill_type = data.get("skill_type", "Technical")
+
+    if not skill_name:
+        return jsonify({"error": "skill_name is required"}), 400
+
+    # Get or create skill
+    skill = query("SELECT skill_id FROM Skills WHERE skill_name = %s",
+                  (skill_name,), fetchone=True)
+    if skill:
+        skill_id = skill["skill_id"]
+    else:
+        skill_id = query(
+            "INSERT INTO Skills (skill_name, skill_type) VALUES (%s, %s)",
+            (skill_name, skill_type), commit=True
+        )
+
+    # Check already mapped
+    exists = query(
+        "SELECT mapping_id FROM Skill_Mappings WHERE skill_id=%s AND entity_type='Job' AND entity_id=%s",
+        (skill_id, job_id), fetchone=True
+    )
+    if exists:
+        return jsonify({"error": "Skill already added to this job"}), 409
+
+    query(
+        "INSERT INTO Skill_Mappings (skill_id, entity_type, entity_id) VALUES (%s,'Job',%s)",
+        (skill_id, job_id), commit=True
+    )
+    return jsonify({"message": "Skill added", "skill_id": skill_id, "skill_name": skill_name}), 201
+
+
+# ----------------------------------------------------------
+# DELETE /api/company/jobs/<job_id>/skills/<skill_id>
+# Remove a required skill from a job posting
+# ----------------------------------------------------------
+@company_bp.route("/jobs/<int:job_id>/skills/<int:skill_id>", methods=["DELETE"])
+def remove_job_skill(job_id, skill_id):
+    err = company_required()
+    if err: return err
+
+    job = query("SELECT job_id FROM Job_Postings WHERE job_id=%s AND company_id=%s",
+                (job_id, session["entity_id"]), fetchone=True)
+    if not job:
+        return jsonify({"error": "Job not found"}), 404
+
+    query(
+        "DELETE FROM Skill_Mappings WHERE skill_id=%s AND entity_type='Job' AND entity_id=%s",
+        (skill_id, job_id), commit=True
+    )
+    return jsonify({"message": "Skill removed"}), 200

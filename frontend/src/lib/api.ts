@@ -14,6 +14,14 @@ const api = axios.create({
 
 let csrfToken: string | null = null;
 
+/**
+ * Flush the cached CSRF token — call this after login and after logout
+ * so the next mutating request fetches a fresh token for the new session.
+ */
+export function clearCsrfCache() {
+  csrfToken = null;
+}
+
 async function ensureCsrfToken() {
   if (csrfToken) return csrfToken;
   const res = await api.get('/auth/csrf');
@@ -43,6 +51,7 @@ api.interceptors.response.use(
   (error) => {
     if (error.response?.status === 401) {
       // Cookie-session auth: clear any cached frontend auth state and redirect.
+      clearCsrfCache();
       if (window.location.pathname !== '/login') {
         window.location.href = '/login';
       }

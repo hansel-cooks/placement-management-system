@@ -161,3 +161,39 @@ def me():
         return jsonify({"error": "User not found"}), 404
 
     return jsonify(safe_user(user)), 200
+
+
+# ----------------------------------------------------------
+# PUT /api/auth/change-password
+# Body: { "current_password": "...", "new_password": "..." }
+# Any logged-in user (student, company, admin) can use this
+# ----------------------------------------------------------
+@auth_bp.route("/change-password", methods=["PUT"])
+def change_password():
+    if "user_id" not in session:
+        return jsonify({"error": "Please log in"}), 401
+
+    data             = request.get_json()
+    current_password = data.get("current_password", "")
+    new_password     = data.get("new_password", "")
+
+    if not current_password or not new_password:
+        return jsonify({"error": "current_password and new_password are required"}), 400
+
+    if len(new_password) < 6:
+        return jsonify({"error": "New password must be at least 6 characters"}), 400
+
+    user = query("SELECT * FROM Users WHERE user_id = %s",
+                 (session["user_id"],), fetchone=True)
+    if not user:
+        return jsonify({"error": "User not found"}), 404
+
+    if not bcrypt.checkpw(current_password.encode(), user["password_hash"].encode()):
+        return jsonify({"error": "Current password is incorrect"}), 400
+
+    new_hash = bcrypt.hashpw(new_password.encode(), bcrypt.gensalt()).decode()
+    query(
+        "UPDATE Users SET password_hash = %s WHERE user_id = %s",
+        (new_hash, session["user_id"]), commit=True
+    )
+    return jsonify({"message": "Password changed successfully"}), 200
