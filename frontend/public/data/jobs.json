@@ -1,0 +1,4775 @@
+[
+  {
+    "id": "job_0001",
+    "title": "QA Engineer",
+    "company": "Cognizant",
+    "industry": "IT/Software",
+    "location": "Chandigarh",
+    "type": "Contract",
+    "salary": "₹15.6 LPA",
+    "skills": [
+      "Postman",
+      "Python",
+      "JIRA",
+      "Selenium"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 268,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-20",
+    "openings": 6
+  },
+  {
+    "id": "job_0002",
+    "title": "Frontend Developer",
+    "company": "Ola",
+    "industry": "Mobility",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹19.0 LPA",
+    "skills": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "TypeScript"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 174,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-21",
+    "openings": 1
+  },
+  {
+    "id": "job_0003",
+    "title": "Backend Developer Intern",
+    "company": "Flipkart",
+    "industry": "E-Commerce/Tech",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹60k/month",
+    "skills": [
+      "Node.js",
+      "SQL",
+      "REST APIs",
+      "Redis"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 421,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-15",
+    "openings": 12
+  },
+  {
+    "id": "job_0004",
+    "title": "Data Analyst",
+    "company": "Wipro",
+    "industry": "IT/Software",
+    "location": "Noida",
+    "type": "Contract",
+    "salary": "₹11.1 LPA",
+    "skills": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Tableau"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 462,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-25",
+    "openings": 5
+  },
+  {
+    "id": "job_0005",
+    "title": "DevOps Engineer",
+    "company": "Ola",
+    "industry": "Mobility",
+    "location": "Remote",
+    "type": "Contract",
+    "salary": "₹17.0 LPA",
+    "skills": [
+      "CI/CD",
+      "Linux",
+      "Kubernetes"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 246,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-08",
+    "openings": 9
+  },
+  {
+    "id": "job_0006",
+    "title": "QA Engineer",
+    "company": "Deutsche Bank",
+    "industry": "Banking",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹5.0 LPA",
+    "skills": [
+      "JIRA",
+      "Postman",
+      "Python"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 380,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-21",
+    "openings": 3
+  },
+  {
+    "id": "job_0007",
+    "title": "Frontend Developer",
+    "company": "Goldman Sachs",
+    "industry": "Finance",
+    "location": "Delhi NCR",
+    "type": "Full-Time",
+    "salary": "₹25.1 LPA",
+    "skills": [
+      "CSS",
+      "React",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 96,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-18",
+    "openings": 5
+  },
+  {
+    "id": "job_0008",
+    "title": "Embedded Systems Engineer",
+    "company": "Infosys",
+    "industry": "IT/Software",
+    "location": "Pune",
+    "type": "Internship",
+    "salary": "₹46k/month",
+    "skills": [
+      "RTOS",
+      "UART",
+      "C++",
+      "Arduino"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 366,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-27",
+    "openings": 12
+  },
+  {
+    "id": "job_0009",
+    "title": "ML Engineer",
+    "company": "Microsoft",
+    "industry": "Technology",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹28 LPA",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "Machine Learning",
+      "Azure"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 342,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-20",
+    "openings": 3
+  },
+  {
+    "id": "job_0010",
+    "title": "Business Analyst",
+    "company": "PhonePe",
+    "industry": "FinTech",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹17.4 LPA",
+    "skills": [
+      "Power BI",
+      "Requirements Gathering",
+      "Excel",
+      "JIRA"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 67,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-08",
+    "openings": 1
+  },
+  {
+    "id": "job_0011",
+    "title": "Full Stack Developer",
+    "company": "Oracle",
+    "industry": "Enterprise Software",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹9.3 LPA",
+    "skills": [
+      "Node.js",
+      "React",
+      "Git",
+      "SQL"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 233,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-26",
+    "openings": 8
+  },
+  {
+    "id": "job_0012",
+    "title": "Software Development Engineer",
+    "company": "Amazon",
+    "industry": "E-Commerce/Tech",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹30 LPA",
+    "skills": [
+      "Java",
+      "DSA",
+      "AWS",
+      "System Design"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 512,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-13",
+    "openings": 8
+  },
+  {
+    "id": "job_0013",
+    "title": "Data Engineer",
+    "company": "Salesforce",
+    "industry": "CRM/SaaS",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹20 LPA",
+    "skills": [
+      "SQL",
+      "Spark",
+      "Python",
+      "Airflow"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 214,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-25",
+    "openings": 6
+  },
+  {
+    "id": "job_0014",
+    "title": "Cybersecurity Analyst",
+    "company": "Atlassian",
+    "industry": "Software/SaaS",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "₹13.1 LPA",
+    "skills": [
+      "Python",
+      "Network Security"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 456,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-28",
+    "openings": 4
+  },
+  {
+    "id": "job_0015",
+    "title": "Cybersecurity Analyst",
+    "company": "Meesho",
+    "industry": "E-Commerce",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹8.3 LPA",
+    "skills": [
+      "Linux",
+      "Python",
+      "Network Security"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 71,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-20",
+    "openings": 15
+  },
+  {
+    "id": "job_0016",
+    "title": "Backend Developer",
+    "company": "Swiggy",
+    "industry": "FoodTech",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹20.7 LPA",
+    "skills": [
+      "REST APIs",
+      "Node.js",
+      "Docker"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 281,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-11",
+    "openings": 3
+  },
+  {
+    "id": "job_0017",
+    "title": "Data Engineer",
+    "company": "Goldman Sachs",
+    "industry": "Finance",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹10.5 LPA",
+    "skills": [
+      "Kafka",
+      "Spark"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 306,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-28",
+    "openings": 11
+  },
+  {
+    "id": "job_0018",
+    "title": "Frontend Developer",
+    "company": "Zoho",
+    "industry": "SaaS/Software",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹13.8 LPA",
+    "skills": [
+      "JavaScript",
+      "React"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 230,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-18",
+    "openings": 6
+  },
+  {
+    "id": "job_0019",
+    "title": "Software Engineer",
+    "company": "Adobe",
+    "industry": "Technology",
+    "location": "Kolkata",
+    "type": "Contract",
+    "salary": "₹9.2 LPA",
+    "skills": [
+      "Java",
+      "DSA",
+      "C++",
+      "Git"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 205,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-15",
+    "openings": 6
+  },
+  {
+    "id": "job_0020",
+    "title": "Business Analyst",
+    "company": "Razorpay",
+    "industry": "FinTech",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹7.0 LPA",
+    "skills": [
+      "SQL",
+      "JIRA",
+      "Excel",
+      "Requirements Gathering"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 121,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-12",
+    "openings": 4
+  },
+  {
+    "id": "job_0021",
+    "title": "Data Analyst",
+    "company": "Cisco",
+    "industry": "Networking",
+    "location": "Kolkata",
+    "type": "Full-Time",
+    "salary": "₹12.1 LPA",
+    "skills": [
+      "SQL",
+      "Tableau",
+      "Excel"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 369,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-16",
+    "openings": 5
+  },
+  {
+    "id": "job_0022",
+    "title": "Frontend Developer",
+    "company": "Adobe",
+    "industry": "Technology",
+    "location": "Ahmedabad",
+    "type": "Internship",
+    "salary": "₹36k/month",
+    "skills": [
+      "HTML",
+      "JavaScript"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 379,
+    "posted_at": "Today",
+    "deadline": "2026-04-06",
+    "openings": 13
+  },
+  {
+    "id": "job_0023",
+    "title": "Cloud Engineer",
+    "company": "Cognizant",
+    "industry": "IT/Software",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹26.7 LPA",
+    "skills": [
+      "Azure",
+      "Terraform"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 465,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-28",
+    "openings": 13
+  },
+  {
+    "id": "job_0024",
+    "title": "Data Analyst",
+    "company": "Deloitte",
+    "industry": "Consulting",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹14.8 LPA",
+    "skills": [
+      "Power BI",
+      "Tableau",
+      "Python",
+      "SQL"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 428,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-08",
+    "openings": 11
+  },
+  {
+    "id": "job_0025",
+    "title": "Backend Developer",
+    "company": "KPMG",
+    "industry": "Consulting",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹18.8 LPA",
+    "skills": [
+      "SQL",
+      "Docker",
+      "Python"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 314,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-08",
+    "openings": 9
+  },
+  {
+    "id": "job_0026",
+    "title": "Embedded Systems Engineer",
+    "company": "Airbnb",
+    "industry": "Travel/Tech",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹9.6 LPA",
+    "skills": [
+      "RTOS",
+      "UART",
+      "C"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 145,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-07",
+    "openings": 8
+  },
+  {
+    "id": "job_0027",
+    "title": "Product Manager",
+    "company": "Infosys",
+    "industry": "IT/Software",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "salary": "₹15.6 LPA",
+    "skills": [
+      "Analytics",
+      "Agile",
+      "Roadmapping",
+      "Communication"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 163,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-25",
+    "openings": 15
+  },
+  {
+    "id": "job_0028",
+    "title": "Cybersecurity Analyst",
+    "company": "Airbnb",
+    "industry": "Travel/Tech",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹22.1 LPA",
+    "skills": [
+      "Linux",
+      "Python",
+      "SIEM",
+      "Network Security"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 178,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-27",
+    "openings": 1
+  },
+  {
+    "id": "job_0029",
+    "title": "Backend Developer",
+    "company": "Paytm",
+    "industry": "FinTech",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹14.5 LPA",
+    "skills": [
+      "Docker",
+      "REST APIs"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 286,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-27",
+    "openings": 9
+  },
+  {
+    "id": "job_0030",
+    "title": "Data Engineer",
+    "company": "Capgemini",
+    "industry": "IT/Software",
+    "location": "Ahmedabad",
+    "type": "Internship",
+    "salary": "₹47k/month",
+    "skills": [
+      "Airflow",
+      "Kafka"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 182,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-22",
+    "openings": 8
+  },
+  {
+    "id": "job_0031",
+    "title": "Business Analyst",
+    "company": "Wells Fargo",
+    "industry": "Banking",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "salary": "₹16.9 LPA",
+    "skills": [
+      "Power BI",
+      "SQL",
+      "Excel"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 115,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-15",
+    "openings": 5
+  },
+  {
+    "id": "job_0032",
+    "title": "Backend Developer",
+    "company": "Meesho",
+    "industry": "E-Commerce",
+    "location": "Ahmedabad",
+    "type": "Contract",
+    "salary": "₹21.6 LPA",
+    "skills": [
+      "SQL",
+      "Docker",
+      "Node.js",
+      "Python"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 221,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-27",
+    "openings": 6
+  },
+  {
+    "id": "job_0033",
+    "title": "QA Engineer",
+    "company": "Microsoft",
+    "industry": "Technology",
+    "location": "Kolkata",
+    "type": "Internship",
+    "salary": "₹54k/month",
+    "skills": [
+      "Python",
+      "SQL",
+      "JIRA"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 132,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-26",
+    "openings": 5
+  },
+  {
+    "id": "job_0034",
+    "title": "Backend Developer",
+    "company": "Bain & Company",
+    "industry": "Consulting",
+    "location": "Ahmedabad",
+    "type": "Internship",
+    "salary": "₹53k/month",
+    "skills": [
+      "Python",
+      "SQL"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 143,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-22",
+    "openings": 2
+  },
+  {
+    "id": "job_0035",
+    "title": "Backend Developer",
+    "company": "Zomato",
+    "industry": "FoodTech",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹11.0 LPA",
+    "skills": [
+      "Node.js",
+      "REST APIs"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 112,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-14",
+    "openings": 10
+  },
+  {
+    "id": "job_0036",
+    "title": "Frontend Developer",
+    "company": "Groww",
+    "industry": "FinTech",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "salary": "₹12.8 LPA",
+    "skills": [
+      "JavaScript",
+      "HTML"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 494,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-19",
+    "openings": 1
+  },
+  {
+    "id": "job_0037",
+    "title": "Backend Developer",
+    "company": "IBM",
+    "industry": "IT Services",
+    "location": "Chennai",
+    "type": "Contract",
+    "salary": "₹16.5 LPA",
+    "skills": [
+      "Node.js",
+      "Docker"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 490,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-20",
+    "openings": 6
+  },
+  {
+    "id": "job_0038",
+    "title": "DevOps Engineer",
+    "company": "PhonePe",
+    "industry": "FinTech",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹20 LPA",
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 234,
+    "posted_at": "Today",
+    "deadline": "2026-04-27",
+    "openings": 7
+  },
+  {
+    "id": "job_0039",
+    "title": "Software Engineer",
+    "company": "Razorpay",
+    "industry": "FinTech",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹75k/month",
+    "skills": [
+      "Git",
+      "DSA",
+      "System Design",
+      "Java"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 194,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-29",
+    "openings": 14
+  },
+  {
+    "id": "job_0040",
+    "title": "Cloud Engineer",
+    "company": "NVIDIA",
+    "industry": "Semiconductors",
+    "location": "Pune",
+    "type": "Contract",
+    "salary": "₹17.7 LPA",
+    "skills": [
+      "GCP",
+      "Kubernetes",
+      "AWS"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 381,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-20",
+    "openings": 8
+  },
+  {
+    "id": "job_0041",
+    "title": "Frontend Developer",
+    "company": "Deutsche Bank",
+    "industry": "Banking",
+    "location": "Ahmedabad",
+    "type": "Full-Time",
+    "salary": "₹19.7 LPA",
+    "skills": [
+      "TypeScript",
+      "HTML",
+      "JavaScript"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 262,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-18",
+    "openings": 14
+  },
+  {
+    "id": "job_0042",
+    "title": "ML Engineer",
+    "company": "BCG",
+    "industry": "Consulting",
+    "location": "Ahmedabad",
+    "type": "Internship",
+    "salary": "₹48k/month",
+    "skills": [
+      "Machine Learning",
+      "Scikit-learn"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 373,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-12",
+    "openings": 11
+  },
+  {
+    "id": "job_0043",
+    "title": "Cybersecurity Analyst",
+    "company": "Cisco",
+    "industry": "Networking",
+    "location": "Pune",
+    "type": "Internship",
+    "salary": "₹64k/month",
+    "skills": [
+      "Linux",
+      "Python",
+      "Network Security",
+      "SIEM"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 198,
+    "posted_at": "Today",
+    "deadline": "2026-04-28",
+    "openings": 2
+  },
+  {
+    "id": "job_0044",
+    "title": "Embedded Systems Engineer",
+    "company": "Groww",
+    "industry": "FinTech",
+    "location": "Gurgaon",
+    "type": "Internship",
+    "salary": "₹30k/month",
+    "skills": [
+      "C",
+      "UART",
+      "RTOS",
+      "C++"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 354,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-08",
+    "openings": 5
+  },
+  {
+    "id": "job_0045",
+    "title": "Cloud Engineer",
+    "company": "Deloitte",
+    "industry": "Consulting",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹11.5 LPA",
+    "skills": [
+      "Terraform",
+      "Azure",
+      "AWS"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 192,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-08",
+    "openings": 7
+  },
+  {
+    "id": "job_0046",
+    "title": "Full Stack Developer",
+    "company": "Bain & Company",
+    "industry": "Consulting",
+    "location": "Noida",
+    "type": "Internship",
+    "salary": "₹50k/month",
+    "skills": [
+      "React",
+      "Git",
+      "Node.js"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 484,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-21",
+    "openings": 11
+  },
+  {
+    "id": "job_0047",
+    "title": "Cloud Engineer",
+    "company": "Amazon",
+    "industry": "E-Commerce/Tech",
+    "location": "Delhi NCR",
+    "type": "Contract",
+    "salary": "₹18.4 LPA",
+    "skills": [
+      "Azure",
+      "Kubernetes",
+      "AWS"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 60,
+    "posted_at": "Today",
+    "deadline": "2026-04-29",
+    "openings": 7
+  },
+  {
+    "id": "job_0048",
+    "title": "Cloud Engineer",
+    "company": "Cisco",
+    "industry": "Networking",
+    "location": "Pune",
+    "type": "Full-Time",
+    "salary": "₹9.6 LPA",
+    "skills": [
+      "Terraform",
+      "GCP",
+      "AWS",
+      "Azure"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 436,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-15",
+    "openings": 7
+  },
+  {
+    "id": "job_0049",
+    "title": "Product Manager",
+    "company": "Nykaa",
+    "industry": "E-Commerce/Beauty",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹13.9 LPA",
+    "skills": [
+      "Analytics",
+      "Agile",
+      "SQL"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 109,
+    "posted_at": "12 days ago",
+    "deadline": "2026-04-17",
+    "openings": 7
+  },
+  {
+    "id": "job_0050",
+    "title": "Product Manager",
+    "company": "Tech Mahindra",
+    "industry": "IT/Software",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹11.0 LPA",
+    "skills": [
+      "Agile",
+      "SQL",
+      "Analytics"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 485,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-21",
+    "openings": 11
+  },
+  {
+    "id": "job_0051",
+    "title": "Backend Developer",
+    "company": "Accenture",
+    "industry": "Consulting",
+    "location": "Pune",
+    "type": "Full-Time",
+    "salary": "₹20.2 LPA",
+    "skills": [
+      "Python",
+      "SQL",
+      "Node.js"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 280,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-25",
+    "openings": 2
+  },
+  {
+    "id": "job_0052",
+    "title": "QA Engineer",
+    "company": "Bain & Company",
+    "industry": "Consulting",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹11.5 LPA",
+    "skills": [
+      "JIRA",
+      "Python"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 395,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-25",
+    "openings": 15
+  },
+  {
+    "id": "job_0053",
+    "title": "ML Engineer Intern",
+    "company": "Google",
+    "industry": "Technology",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹75k/month",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "ML"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 497,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-10",
+    "openings": 4
+  },
+  {
+    "id": "job_0054",
+    "title": "Cloud Engineer",
+    "company": "Uber",
+    "industry": "Mobility/Tech",
+    "location": "Kolkata",
+    "type": "Full-Time",
+    "salary": "₹9.6 LPA",
+    "skills": [
+      "AWS",
+      "Terraform",
+      "GCP"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 116,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-22",
+    "openings": 7
+  },
+  {
+    "id": "job_0055",
+    "title": "Backend Developer",
+    "company": "Deloitte",
+    "industry": "Consulting",
+    "location": "Ahmedabad",
+    "type": "Internship",
+    "salary": "₹25k/month",
+    "skills": [
+      "SQL",
+      "REST APIs",
+      "Python"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 128,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-11",
+    "openings": 15
+  },
+  {
+    "id": "job_0056",
+    "title": "Backend Developer",
+    "company": "Oracle",
+    "industry": "Enterprise Software",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹13.3 LPA",
+    "skills": [
+      "Docker",
+      "Node.js"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 268,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-08",
+    "openings": 8
+  },
+  {
+    "id": "job_0057",
+    "title": "Data Engineer",
+    "company": "Morgan Stanley",
+    "industry": "Finance",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹26.2 LPA",
+    "skills": [
+      "Airflow",
+      "Kafka"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 397,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-09",
+    "openings": 11
+  },
+  {
+    "id": "job_0058",
+    "title": "Business Analyst",
+    "company": "McKinsey",
+    "industry": "Consulting",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹18 LPA",
+    "skills": [
+      "Excel",
+      "SQL",
+      "PowerPoint",
+      "Analytics"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 278,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-12",
+    "openings": 4
+  },
+  {
+    "id": "job_0059",
+    "title": "Software Engineer",
+    "company": "Google",
+    "industry": "Technology",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹24 LPA",
+    "skills": [
+      "DSA",
+      "Java",
+      "System Design",
+      "Python"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 487,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-17",
+    "openings": 5
+  },
+  {
+    "id": "job_0060",
+    "title": "Software Engineer",
+    "company": "Zoho",
+    "industry": "SaaS/Software",
+    "location": "Delhi NCR",
+    "type": "Full-Time",
+    "salary": "₹28.9 LPA",
+    "skills": [
+      "System Design",
+      "Git",
+      "Java"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 155,
+    "posted_at": "12 days ago",
+    "deadline": "2026-04-17",
+    "openings": 7
+  },
+  {
+    "id": "job_0061",
+    "title": "ML Engineer",
+    "company": "Groww",
+    "industry": "FinTech",
+    "location": "Chandigarh",
+    "type": "Internship",
+    "salary": "₹77k/month",
+    "skills": [
+      "Scikit-learn",
+      "Machine Learning",
+      "Python"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 423,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-27",
+    "openings": 7
+  },
+  {
+    "id": "job_0062",
+    "title": "System Analyst",
+    "company": "Adobe",
+    "industry": "Technology",
+    "location": "Ahmedabad",
+    "type": "Full-Time",
+    "salary": "₹17.4 LPA",
+    "skills": [
+      "SQL",
+      "Java",
+      "UML"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 384,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-11",
+    "openings": 10
+  },
+  {
+    "id": "job_0063",
+    "title": "Cloud Engineer",
+    "company": "Accenture",
+    "industry": "Consulting",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "salary": "₹23.3 LPA",
+    "skills": [
+      "Kubernetes",
+      "AWS",
+      "Azure"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 253,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-09",
+    "openings": 12
+  },
+  {
+    "id": "job_0064",
+    "title": "Full Stack Developer",
+    "company": "PolicyBazaar",
+    "industry": "InsurTech",
+    "location": "Delhi NCR",
+    "type": "Full-Time",
+    "salary": "₹21.4 LPA",
+    "skills": [
+      "Git",
+      "Node.js"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 415,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-12",
+    "openings": 3
+  },
+  {
+    "id": "job_0065",
+    "title": "Business Analyst",
+    "company": "IBM",
+    "industry": "IT Services",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹13.5 LPA",
+    "skills": [
+      "JIRA",
+      "Excel",
+      "Requirements Gathering",
+      "Power BI"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 186,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-25",
+    "openings": 8
+  },
+  {
+    "id": "job_0066",
+    "title": "Software Engineer",
+    "company": "Ola",
+    "industry": "Mobility",
+    "location": "Noida",
+    "type": "Internship",
+    "salary": "₹52k/month",
+    "skills": [
+      "DSA",
+      "System Design",
+      "Git"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 55,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-26",
+    "openings": 1
+  },
+  {
+    "id": "job_0067",
+    "title": "Frontend Developer",
+    "company": "Adobe",
+    "industry": "Technology",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹18 LPA",
+    "skills": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "CSS"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 198,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-24",
+    "openings": 6
+  },
+  {
+    "id": "job_0068",
+    "title": "Data Analyst",
+    "company": "Byju's",
+    "industry": "EdTech",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹10.9 LPA",
+    "skills": [
+      "Excel",
+      "Python",
+      "Tableau"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 234,
+    "posted_at": "12 days ago",
+    "deadline": "2026-04-19",
+    "openings": 8
+  },
+  {
+    "id": "job_0069",
+    "title": "Cloud Engineer",
+    "company": "Tech Mahindra",
+    "industry": "IT/Software",
+    "location": "Delhi NCR",
+    "type": "Full-Time",
+    "salary": "₹15.6 LPA",
+    "skills": [
+      "GCP",
+      "AWS",
+      "Terraform",
+      "Kubernetes"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 312,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-28",
+    "openings": 6
+  },
+  {
+    "id": "job_0070",
+    "title": "Cloud Engineer",
+    "company": "Ola",
+    "industry": "Mobility",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹22.0 LPA",
+    "skills": [
+      "GCP",
+      "AWS",
+      "Kubernetes",
+      "Azure"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 173,
+    "posted_at": "8 days ago",
+    "deadline": "2026-04-17",
+    "openings": 11
+  },
+  {
+    "id": "job_0071",
+    "title": "Business Analyst",
+    "company": "Barclays",
+    "industry": "Banking",
+    "location": "Gurgaon",
+    "type": "Internship",
+    "salary": "₹46k/month",
+    "skills": [
+      "SQL",
+      "Power BI"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 89,
+    "posted_at": "Today",
+    "deadline": "2026-04-16",
+    "openings": 15
+  },
+  {
+    "id": "job_0072",
+    "title": "Cloud Engineer",
+    "company": "Tata Consultancy Services",
+    "industry": "IT/Software",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹8.9 LPA",
+    "skills": [
+      "AWS",
+      "Azure"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 336,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-11",
+    "openings": 9
+  },
+  {
+    "id": "job_0073",
+    "title": "Cybersecurity Analyst",
+    "company": "Zerodha",
+    "industry": "FinTech",
+    "location": "Kolkata",
+    "type": "Full-Time",
+    "salary": "₹8.3 LPA",
+    "skills": [
+      "Python",
+      "Linux"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 76,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-15",
+    "openings": 3
+  },
+  {
+    "id": "job_0074",
+    "title": "Embedded Systems Engineer",
+    "company": "PolicyBazaar",
+    "industry": "InsurTech",
+    "location": "Mumbai",
+    "type": "Contract",
+    "salary": "₹7.5 LPA",
+    "skills": [
+      "Arduino",
+      "C"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 339,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-23",
+    "openings": 8
+  },
+  {
+    "id": "job_0075",
+    "title": "DevOps Intern",
+    "company": "Meesho",
+    "industry": "E-Commerce",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹50k/month",
+    "skills": [
+      "Docker",
+      "AWS",
+      "CI/CD",
+      "Python"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 221,
+    "posted_at": "Today",
+    "deadline": "2026-04-26",
+    "openings": 6
+  },
+  {
+    "id": "job_0076",
+    "title": "Data Engineer",
+    "company": "Deutsche Bank",
+    "industry": "Banking",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹20.0 LPA",
+    "skills": [
+      "Python",
+      "Kafka"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 498,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-12",
+    "openings": 11
+  },
+  {
+    "id": "job_0077",
+    "title": "Strategy Analyst",
+    "company": "Bain & Company",
+    "industry": "Consulting",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹20 LPA",
+    "skills": [
+      "Excel",
+      "PowerPoint",
+      "Modeling",
+      "Analytics"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 143,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-08",
+    "openings": 3
+  },
+  {
+    "id": "job_0078",
+    "title": "Full Stack Developer",
+    "company": "Atlassian",
+    "industry": "Software/SaaS",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "₹22 LPA",
+    "skills": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "AWS"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 183,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-21",
+    "openings": 5
+  },
+  {
+    "id": "job_0079",
+    "title": "DevOps Engineer",
+    "company": "Freshworks",
+    "industry": "SaaS/Software",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹17.9 LPA",
+    "skills": [
+      "CI/CD",
+      "Kubernetes",
+      "Docker"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 155,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-22",
+    "openings": 10
+  },
+  {
+    "id": "job_0080",
+    "title": "Data Analyst",
+    "company": "Goldman Sachs",
+    "industry": "Finance",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹22 LPA",
+    "skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Statistics"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 389,
+    "posted_at": "Today",
+    "deadline": "2026-04-11",
+    "openings": 4
+  },
+  {
+    "id": "job_0081",
+    "title": "DevOps Engineer",
+    "company": "Swiggy",
+    "industry": "FoodTech",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "salary": "₹8.6 LPA",
+    "skills": [
+      "AWS",
+      "Docker",
+      "CI/CD"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 313,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-07",
+    "openings": 13
+  },
+  {
+    "id": "job_0082",
+    "title": "ML Engineer",
+    "company": "Microsoft",
+    "industry": "Technology",
+    "location": "Bangalore",
+    "type": "Contract",
+    "salary": "₹17.9 LPA",
+    "skills": [
+      "Pandas",
+      "Scikit-learn",
+      "TensorFlow"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 301,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-18",
+    "openings": 13
+  },
+  {
+    "id": "job_0083",
+    "title": "QA Engineer",
+    "company": "Infosys",
+    "industry": "IT/Software",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹5.4 LPA",
+    "skills": [
+      "Selenium",
+      "JIRA",
+      "Postman"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 457,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-11",
+    "openings": 6
+  },
+  {
+    "id": "job_0084",
+    "title": "DevOps Engineer",
+    "company": "Paytm",
+    "industry": "FinTech",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹15.2 LPA",
+    "skills": [
+      "AWS",
+      "Docker",
+      "Linux"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 180,
+    "posted_at": "12 days ago",
+    "deadline": "2026-04-27",
+    "openings": 14
+  },
+  {
+    "id": "job_0085",
+    "title": "Embedded Systems Engineer",
+    "company": "Ola",
+    "industry": "Mobility",
+    "location": "Delhi NCR",
+    "type": "Internship",
+    "salary": "₹27k/month",
+    "skills": [
+      "UART",
+      "C++"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 452,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-24",
+    "openings": 7
+  },
+  {
+    "id": "job_0086",
+    "title": "Embedded Systems Engineer",
+    "company": "Paytm",
+    "industry": "FinTech",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹49k/month",
+    "skills": [
+      "C",
+      "UART",
+      "C++",
+      "Arduino"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 310,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-07",
+    "openings": 1
+  },
+  {
+    "id": "job_0087",
+    "title": "Backend Developer",
+    "company": "Freshworks",
+    "industry": "SaaS/Software",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹62k/month",
+    "skills": [
+      "Node.js",
+      "REST APIs",
+      "SQL"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 106,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-19",
+    "openings": 3
+  },
+  {
+    "id": "job_0088",
+    "title": "QA Engineer",
+    "company": "Tech Mahindra",
+    "industry": "IT/Software",
+    "location": "Delhi NCR",
+    "type": "Full-Time",
+    "salary": "₹5.7 LPA",
+    "skills": [
+      "Python",
+      "Selenium",
+      "JIRA"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 215,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-29",
+    "openings": 5
+  },
+  {
+    "id": "job_0089",
+    "title": "System Analyst",
+    "company": "Flipkart",
+    "industry": "E-Commerce/Tech",
+    "location": "Pune",
+    "type": "Contract",
+    "salary": "₹11.7 LPA",
+    "skills": [
+      "SQL",
+      "Business Analysis",
+      "UML",
+      "Agile"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 240,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-06",
+    "openings": 5
+  },
+  {
+    "id": "job_0090",
+    "title": "Embedded Systems Engineer",
+    "company": "Barclays",
+    "industry": "Banking",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹17.5 LPA",
+    "skills": [
+      "Arduino",
+      "UART"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 267,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-07",
+    "openings": 9
+  },
+  {
+    "id": "job_0091",
+    "title": "Frontend Developer",
+    "company": "NVIDIA",
+    "industry": "Semiconductors",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹19.2 LPA",
+    "skills": [
+      "TypeScript",
+      "CSS",
+      "JavaScript"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 89,
+    "posted_at": "12 days ago",
+    "deadline": "2026-04-20",
+    "openings": 14
+  },
+  {
+    "id": "job_0092",
+    "title": "Data Analyst",
+    "company": "BCG",
+    "industry": "Consulting",
+    "location": "Pune",
+    "type": "Full-Time",
+    "salary": "₹6.7 LPA",
+    "skills": [
+      "SQL",
+      "Python"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 160,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-10",
+    "openings": 14
+  },
+  {
+    "id": "job_0093",
+    "title": "Embedded Systems Engineer",
+    "company": "Capgemini",
+    "industry": "IT/Software",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹14.3 LPA",
+    "skills": [
+      "UART",
+      "C++",
+      "RTOS"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 126,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-09",
+    "openings": 4
+  },
+  {
+    "id": "job_0094",
+    "title": "Product Manager",
+    "company": "Groww",
+    "industry": "FinTech",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "₹16.5 LPA",
+    "skills": [
+      "Agile",
+      "Analytics",
+      "SQL"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 309,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-06",
+    "openings": 9
+  },
+  {
+    "id": "job_0095",
+    "title": "Data Analyst",
+    "company": "Freshworks",
+    "industry": "SaaS/Software",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹9.8 LPA",
+    "skills": [
+      "Power BI",
+      "Tableau"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 293,
+    "posted_at": "Today",
+    "deadline": "2026-04-27",
+    "openings": 3
+  },
+  {
+    "id": "job_0096",
+    "title": "Data Engineer",
+    "company": "Freshworks",
+    "industry": "SaaS/Software",
+    "location": "Kolkata",
+    "type": "Full-Time",
+    "salary": "₹17.8 LPA",
+    "skills": [
+      "Spark",
+      "Python"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 479,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-20",
+    "openings": 12
+  },
+  {
+    "id": "job_0097",
+    "title": "Software Engineer",
+    "company": "Meesho",
+    "industry": "E-Commerce",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹13.3 LPA",
+    "skills": [
+      "System Design",
+      "C++"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 52,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-10",
+    "openings": 3
+  },
+  {
+    "id": "job_0098",
+    "title": "Backend Developer",
+    "company": "Goldman Sachs",
+    "industry": "Finance",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹89k/month",
+    "skills": [
+      "Node.js",
+      "SQL"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 216,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-19",
+    "openings": 6
+  },
+  {
+    "id": "job_0099",
+    "title": "Data Engineer",
+    "company": "Tata Consultancy Services",
+    "industry": "IT/Software",
+    "location": "Kolkata",
+    "type": "Full-Time",
+    "salary": "₹15.2 LPA",
+    "skills": [
+      "Kafka",
+      "Spark",
+      "Airflow",
+      "SQL"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 144,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-23",
+    "openings": 6
+  },
+  {
+    "id": "job_0100",
+    "title": "Cloud Engineer",
+    "company": "Swiggy",
+    "industry": "FoodTech",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹23.1 LPA",
+    "skills": [
+      "Terraform",
+      "Azure",
+      "AWS"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 294,
+    "posted_at": "8 days ago",
+    "deadline": "2026-04-15",
+    "openings": 6
+  },
+  {
+    "id": "job_0101",
+    "title": "Embedded Systems Engineer",
+    "company": "Amazon",
+    "industry": "E-Commerce/Tech",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "₹17.0 LPA",
+    "skills": [
+      "C",
+      "Arduino"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 208,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-21",
+    "openings": 11
+  },
+  {
+    "id": "job_0102",
+    "title": "Backend Developer",
+    "company": "Accenture",
+    "industry": "Consulting",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹7.1 LPA",
+    "skills": [
+      "Node.js",
+      "Python",
+      "REST APIs"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 245,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-15",
+    "openings": 12
+  },
+  {
+    "id": "job_0103",
+    "title": "Embedded Systems Engineer",
+    "company": "Zoho",
+    "industry": "SaaS/Software",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹17.8 LPA",
+    "skills": [
+      "C",
+      "Arduino",
+      "UART"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 355,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-23",
+    "openings": 7
+  },
+  {
+    "id": "job_0104",
+    "title": "Product Manager",
+    "company": "Flipkart",
+    "industry": "E-Commerce/Tech",
+    "location": "Noida",
+    "type": "Contract",
+    "salary": "₹15.0 LPA",
+    "skills": [
+      "Agile",
+      "Roadmapping",
+      "Analytics"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 396,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-14",
+    "openings": 13
+  },
+  {
+    "id": "job_0105",
+    "title": "Cloud Engineer",
+    "company": "Capgemini",
+    "industry": "IT/Software",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹24.0 LPA",
+    "skills": [
+      "GCP",
+      "Kubernetes",
+      "AWS"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 431,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-17",
+    "openings": 10
+  },
+  {
+    "id": "job_0106",
+    "title": "Cybersecurity Analyst",
+    "company": "Cisco",
+    "industry": "Networking",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹16 LPA",
+    "skills": [
+      "Network Security",
+      "Python",
+      "SIEM",
+      "Firewalls"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 192,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-22",
+    "openings": 5
+  },
+  {
+    "id": "job_0107",
+    "title": "ML Engineer",
+    "company": "BCG",
+    "industry": "Consulting",
+    "location": "Noida",
+    "type": "Internship",
+    "salary": "₹75k/month",
+    "skills": [
+      "Python",
+      "Pandas",
+      "TensorFlow"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 271,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-17",
+    "openings": 13
+  },
+  {
+    "id": "job_0108",
+    "title": "Cloud Engineer",
+    "company": "Nykaa",
+    "industry": "E-Commerce/Beauty",
+    "location": "Delhi NCR",
+    "type": "Full-Time",
+    "salary": "₹26.6 LPA",
+    "skills": [
+      "Kubernetes",
+      "AWS",
+      "Terraform"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 404,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-27",
+    "openings": 14
+  },
+  {
+    "id": "job_0109",
+    "title": "ML Engineer",
+    "company": "Tata Consultancy Services",
+    "industry": "IT/Software",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹29.5 LPA",
+    "skills": [
+      "Machine Learning",
+      "Python",
+      "Scikit-learn",
+      "Pandas"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 91,
+    "posted_at": "12 days ago",
+    "deadline": "2026-04-17",
+    "openings": 4
+  },
+  {
+    "id": "job_0110",
+    "title": "DevOps Engineer",
+    "company": "Deloitte",
+    "industry": "Consulting",
+    "location": "Kolkata",
+    "type": "Full-Time",
+    "salary": "₹24.6 LPA",
+    "skills": [
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 365,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-14",
+    "openings": 4
+  },
+  {
+    "id": "job_0111",
+    "title": "Software Engineer",
+    "company": "Uber",
+    "industry": "Mobility/Tech",
+    "location": "Hyderabad",
+    "type": "Internship",
+    "salary": "₹35k/month",
+    "skills": [
+      "Git",
+      "System Design",
+      "C++",
+      "DSA"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 79,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-14",
+    "openings": 10
+  },
+  {
+    "id": "job_0112",
+    "title": "Full Stack Developer",
+    "company": "Tech Mahindra",
+    "industry": "IT/Software",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹14.3 LPA",
+    "skills": [
+      "MongoDB",
+      "Git",
+      "Node.js",
+      "React"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 474,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-23",
+    "openings": 5
+  },
+  {
+    "id": "job_0113",
+    "title": "Data Engineer",
+    "company": "PhonePe",
+    "industry": "FinTech",
+    "location": "Chandigarh",
+    "type": "Internship",
+    "salary": "₹51k/month",
+    "skills": [
+      "SQL",
+      "Python",
+      "Spark"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 405,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-20",
+    "openings": 11
+  },
+  {
+    "id": "job_0114",
+    "title": "Full Stack Developer",
+    "company": "HCL Technologies",
+    "industry": "IT/Software",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹16.7 LPA",
+    "skills": [
+      "Node.js",
+      "SQL",
+      "MongoDB"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 269,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-27",
+    "openings": 9
+  },
+  {
+    "id": "job_0115",
+    "title": "QA Engineer",
+    "company": "Deutsche Bank",
+    "industry": "Banking",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹8.6 LPA",
+    "skills": [
+      "SQL",
+      "JIRA"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 423,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-24",
+    "openings": 14
+  },
+  {
+    "id": "job_0116",
+    "title": "Embedded Systems Engineer",
+    "company": "Morgan Stanley",
+    "industry": "Finance",
+    "location": "Noida",
+    "type": "Internship",
+    "salary": "₹70k/month",
+    "skills": [
+      "Arduino",
+      "C++",
+      "RTOS"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 440,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-18",
+    "openings": 12
+  },
+  {
+    "id": "job_0117",
+    "title": "System Analyst",
+    "company": "Uber",
+    "industry": "Mobility/Tech",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹7.4 LPA",
+    "skills": [
+      "SQL",
+      "UML"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 161,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-26",
+    "openings": 9
+  },
+  {
+    "id": "job_0118",
+    "title": "Business Analyst",
+    "company": "Google",
+    "industry": "Technology",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹9.1 LPA",
+    "skills": [
+      "Requirements Gathering",
+      "Excel",
+      "SQL"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 198,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-08",
+    "openings": 9
+  },
+  {
+    "id": "job_0119",
+    "title": "Cybersecurity Analyst",
+    "company": "Zomato",
+    "industry": "FoodTech",
+    "location": "Hyderabad",
+    "type": "Internship",
+    "salary": "₹33k/month",
+    "skills": [
+      "Firewalls",
+      "Python",
+      "Linux"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 412,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-11",
+    "openings": 12
+  },
+  {
+    "id": "job_0120",
+    "title": "ML Engineer",
+    "company": "BCG",
+    "industry": "Consulting",
+    "location": "Bangalore",
+    "type": "Contract",
+    "salary": "₹25.6 LPA",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 335,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-24",
+    "openings": 11
+  },
+  {
+    "id": "job_0121",
+    "title": "Data Analyst",
+    "company": "Paytm",
+    "industry": "FinTech",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "₹11.1 LPA",
+    "skills": [
+      "Tableau",
+      "Power BI",
+      "SQL"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 288,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-12",
+    "openings": 8
+  },
+  {
+    "id": "job_0122",
+    "title": "Business Analyst",
+    "company": "Flipkart",
+    "industry": "E-Commerce/Tech",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹14.7 LPA",
+    "skills": [
+      "Requirements Gathering",
+      "Excel",
+      "JIRA",
+      "SQL"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 322,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-22",
+    "openings": 13
+  },
+  {
+    "id": "job_0123",
+    "title": "QA Engineer",
+    "company": "Amazon",
+    "industry": "E-Commerce/Tech",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹14.5 LPA",
+    "skills": [
+      "Postman",
+      "SQL"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 262,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-26",
+    "openings": 5
+  },
+  {
+    "id": "job_0124",
+    "title": "Full Stack Developer",
+    "company": "Meesho",
+    "industry": "E-Commerce",
+    "location": "Pune",
+    "type": "Internship",
+    "salary": "₹49k/month",
+    "skills": [
+      "MongoDB",
+      "Git"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 414,
+    "posted_at": "Today",
+    "deadline": "2026-04-07",
+    "openings": 2
+  },
+  {
+    "id": "job_0125",
+    "title": "Software Engineer",
+    "company": "Deutsche Bank",
+    "industry": "Banking",
+    "location": "Delhi NCR",
+    "type": "Full-Time",
+    "salary": "₹27.8 LPA",
+    "skills": [
+      "System Design",
+      "DSA"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 432,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-18",
+    "openings": 6
+  },
+  {
+    "id": "job_0126",
+    "title": "QA Engineer",
+    "company": "Infosys",
+    "industry": "IT/Software",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹5.0 LPA",
+    "skills": [
+      "SQL",
+      "Selenium",
+      "Postman",
+      "Python"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 384,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-07",
+    "openings": 1
+  },
+  {
+    "id": "job_0127",
+    "title": "Frontend Developer",
+    "company": "Uber",
+    "industry": "Mobility/Tech",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹16.0 LPA",
+    "skills": [
+      "React",
+      "CSS",
+      "TypeScript"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 441,
+    "posted_at": "Today",
+    "deadline": "2026-04-13",
+    "openings": 12
+  },
+  {
+    "id": "job_0128",
+    "title": "Cloud Engineer",
+    "company": "Amazon",
+    "industry": "E-Commerce/Tech",
+    "location": "Pune",
+    "type": "Contract",
+    "salary": "₹24.1 LPA",
+    "skills": [
+      "Terraform",
+      "Kubernetes",
+      "Azure",
+      "AWS"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 223,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-19",
+    "openings": 4
+  },
+  {
+    "id": "job_0129",
+    "title": "Product Manager",
+    "company": "Amazon",
+    "industry": "E-Commerce/Tech",
+    "location": "Kolkata",
+    "type": "Full-Time",
+    "salary": "₹34.3 LPA",
+    "skills": [
+      "Analytics",
+      "Communication",
+      "Agile",
+      "SQL"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 320,
+    "posted_at": "12 days ago",
+    "deadline": "2026-04-18",
+    "openings": 9
+  },
+  {
+    "id": "job_0130",
+    "title": "Business Analyst",
+    "company": "Cisco",
+    "industry": "Networking",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹14.1 LPA",
+    "skills": [
+      "Power BI",
+      "JIRA",
+      "SQL"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 233,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-23",
+    "openings": 11
+  },
+  {
+    "id": "job_0131",
+    "title": "DevOps Engineer",
+    "company": "Oracle",
+    "industry": "Enterprise Software",
+    "location": "Pune",
+    "type": "Full-Time",
+    "salary": "₹23.6 LPA",
+    "skills": [
+      "Linux",
+      "CI/CD",
+      "Kubernetes"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 80,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-22",
+    "openings": 2
+  },
+  {
+    "id": "job_0132",
+    "title": "Product Manager",
+    "company": "NVIDIA",
+    "industry": "Semiconductors",
+    "location": "Gurgaon",
+    "type": "Contract",
+    "salary": "₹19.2 LPA",
+    "skills": [
+      "Agile",
+      "Roadmapping",
+      "Communication"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 116,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-16",
+    "openings": 5
+  },
+  {
+    "id": "job_0133",
+    "title": "Data Analyst",
+    "company": "Zoho",
+    "industry": "SaaS/Software",
+    "location": "Chandigarh",
+    "type": "Contract",
+    "salary": "₹12.5 LPA",
+    "skills": [
+      "SQL",
+      "Excel"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 87,
+    "posted_at": "8 days ago",
+    "deadline": "2026-04-17",
+    "openings": 1
+  },
+  {
+    "id": "job_0134",
+    "title": "Full Stack Developer",
+    "company": "Amazon",
+    "industry": "E-Commerce/Tech",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹25.9 LPA",
+    "skills": [
+      "React",
+      "MongoDB"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 54,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-24",
+    "openings": 15
+  },
+  {
+    "id": "job_0135",
+    "title": "Quantitative Analyst",
+    "company": "Morgan Stanley",
+    "industry": "Finance",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹32 LPA",
+    "skills": [
+      "Python",
+      "Statistics",
+      "C++",
+      "Machine Learning"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 156,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-09",
+    "openings": 2
+  },
+  {
+    "id": "job_0136",
+    "title": "Business Analyst",
+    "company": "Atlassian",
+    "industry": "Software/SaaS",
+    "location": "Ahmedabad",
+    "type": "Contract",
+    "salary": "₹15.2 LPA",
+    "skills": [
+      "SQL",
+      "JIRA"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 475,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-21",
+    "openings": 15
+  },
+  {
+    "id": "job_0137",
+    "title": "Product Manager",
+    "company": "Tata Consultancy Services",
+    "industry": "IT/Software",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹20.1 LPA",
+    "skills": [
+      "SQL",
+      "Analytics",
+      "Communication"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 56,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-25",
+    "openings": 12
+  },
+  {
+    "id": "job_0138",
+    "title": "Data Analyst",
+    "company": "HCL Technologies",
+    "industry": "IT/Software",
+    "location": "Ahmedabad",
+    "type": "Contract",
+    "salary": "₹6.7 LPA",
+    "skills": [
+      "Power BI",
+      "Excel",
+      "SQL",
+      "Tableau"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 339,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-20",
+    "openings": 5
+  },
+  {
+    "id": "job_0139",
+    "title": "Software Engineer",
+    "company": "Atlassian",
+    "industry": "Software/SaaS",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "₹21 LPA",
+    "skills": [
+      "Python",
+      "Java",
+      "Microservices",
+      "AWS"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 244,
+    "posted_at": "Today",
+    "deadline": "2026-04-28",
+    "openings": 7
+  },
+  {
+    "id": "job_0140",
+    "title": "Data Engineer",
+    "company": "Wipro",
+    "industry": "IT/Software",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹21.9 LPA",
+    "skills": [
+      "Python",
+      "Spark"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 302,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-27",
+    "openings": 4
+  },
+  {
+    "id": "job_0141",
+    "title": "Full Stack Developer",
+    "company": "Zomato",
+    "industry": "FoodTech",
+    "location": "Noida",
+    "type": "Internship",
+    "salary": "₹50k/month",
+    "skills": [
+      "Node.js",
+      "SQL",
+      "React"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 83,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-22",
+    "openings": 11
+  },
+  {
+    "id": "job_0142",
+    "title": "QA Engineer",
+    "company": "Freshworks",
+    "industry": "SaaS/Software",
+    "location": "Ahmedabad",
+    "type": "Internship",
+    "salary": "₹26k/month",
+    "skills": [
+      "Selenium",
+      "Python",
+      "JIRA",
+      "SQL"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 405,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-12",
+    "openings": 2
+  },
+  {
+    "id": "job_0143",
+    "title": "Product Manager",
+    "company": "Uber",
+    "industry": "Mobility/Tech",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹26 LPA",
+    "skills": [
+      "Product Roadmapping",
+      "SQL",
+      "Analytics",
+      "Agile"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 267,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-19",
+    "openings": 2
+  },
+  {
+    "id": "job_0144",
+    "title": "QA Engineer",
+    "company": "Adobe",
+    "industry": "Technology",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹11.0 LPA",
+    "skills": [
+      "Python",
+      "JIRA",
+      "Postman",
+      "Selenium"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 489,
+    "posted_at": "Today",
+    "deadline": "2026-04-27",
+    "openings": 3
+  },
+  {
+    "id": "job_0145",
+    "title": "QA Engineer",
+    "company": "Atlassian",
+    "industry": "Software/SaaS",
+    "location": "Delhi NCR",
+    "type": "Full-Time",
+    "salary": "₹16.1 LPA",
+    "skills": [
+      "Postman",
+      "JIRA",
+      "SQL"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 295,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-06",
+    "openings": 15
+  },
+  {
+    "id": "job_0146",
+    "title": "Cybersecurity Analyst",
+    "company": "PhonePe",
+    "industry": "FinTech",
+    "location": "Pune",
+    "type": "Full-Time",
+    "salary": "₹19.4 LPA",
+    "skills": [
+      "Firewalls",
+      "Linux",
+      "SIEM"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 186,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-11",
+    "openings": 14
+  },
+  {
+    "id": "job_0147",
+    "title": "DevOps Engineer",
+    "company": "Infosys",
+    "industry": "IT/Software",
+    "location": "Remote",
+    "type": "Internship",
+    "salary": "₹34k/month",
+    "skills": [
+      "Linux",
+      "AWS",
+      "Docker"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 318,
+    "posted_at": "8 days ago",
+    "deadline": "2026-04-14",
+    "openings": 9
+  },
+  {
+    "id": "job_0148",
+    "title": "Business Analyst",
+    "company": "KPMG",
+    "industry": "Consulting",
+    "location": "Remote",
+    "type": "Internship",
+    "salary": "₹46k/month",
+    "skills": [
+      "SQL",
+      "Power BI",
+      "Requirements Gathering"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 299,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-20",
+    "openings": 12
+  },
+  {
+    "id": "job_0149",
+    "title": "QA Engineer",
+    "company": "Tech Mahindra",
+    "industry": "IT/Software",
+    "location": "Pune",
+    "type": "Internship",
+    "salary": "₹34k/month",
+    "skills": [
+      "Selenium",
+      "JIRA"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 163,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-23",
+    "openings": 6
+  },
+  {
+    "id": "job_0150",
+    "title": "Data Analyst",
+    "company": "Tech Mahindra",
+    "industry": "IT/Software",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹9.2 LPA",
+    "skills": [
+      "Power BI",
+      "SQL"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 464,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-16",
+    "openings": 14
+  },
+  {
+    "id": "job_0151",
+    "title": "Cybersecurity Analyst",
+    "company": "Cognizant",
+    "industry": "IT/Software",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹24.9 LPA",
+    "skills": [
+      "Firewalls",
+      "Network Security",
+      "Python"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 300,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-15",
+    "openings": 12
+  },
+  {
+    "id": "job_0152",
+    "title": "Full Stack Developer",
+    "company": "Morgan Stanley",
+    "industry": "Finance",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "salary": "₹15.6 LPA",
+    "skills": [
+      "Node.js",
+      "MongoDB"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 217,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-15",
+    "openings": 2
+  },
+  {
+    "id": "job_0153",
+    "title": "Backend Developer",
+    "company": "Infosys",
+    "industry": "IT/Software",
+    "location": "Mumbai",
+    "type": "Contract",
+    "salary": "₹10.3 LPA",
+    "skills": [
+      "Docker",
+      "Python",
+      "SQL"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 456,
+    "posted_at": "12 days ago",
+    "deadline": "2026-04-19",
+    "openings": 8
+  },
+  {
+    "id": "job_0154",
+    "title": "Full Stack Developer",
+    "company": "Wipro",
+    "industry": "IT/Software",
+    "location": "Ahmedabad",
+    "type": "Full-Time",
+    "salary": "₹20.8 LPA",
+    "skills": [
+      "MongoDB",
+      "React",
+      "SQL",
+      "Node.js"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 222,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-27",
+    "openings": 1
+  },
+  {
+    "id": "job_0155",
+    "title": "Full Stack Developer",
+    "company": "Deutsche Bank",
+    "industry": "Banking",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹16.3 LPA",
+    "skills": [
+      "MongoDB",
+      "Node.js"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 116,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-24",
+    "openings": 7
+  },
+  {
+    "id": "job_0156",
+    "title": "Full Stack Developer",
+    "company": "Morgan Stanley",
+    "industry": "Finance",
+    "location": "Mumbai",
+    "type": "Internship",
+    "salary": "₹84k/month",
+    "skills": [
+      "SQL",
+      "MongoDB",
+      "Git"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 378,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-25",
+    "openings": 13
+  },
+  {
+    "id": "job_0157",
+    "title": "System Analyst",
+    "company": "BCG",
+    "industry": "Consulting",
+    "location": "Ahmedabad",
+    "type": "Full-Time",
+    "salary": "₹10.5 LPA",
+    "skills": [
+      "SQL",
+      "UML"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 393,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-08",
+    "openings": 9
+  },
+  {
+    "id": "job_0158",
+    "title": "Business Analyst",
+    "company": "KPMG",
+    "industry": "Consulting",
+    "location": "Gurgaon",
+    "type": "Contract",
+    "salary": "₹6.1 LPA",
+    "skills": [
+      "Requirements Gathering",
+      "SQL",
+      "Power BI",
+      "JIRA"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 229,
+    "posted_at": "Today",
+    "deadline": "2026-04-28",
+    "openings": 15
+  },
+  {
+    "id": "job_0159",
+    "title": "Data Engineer",
+    "company": "Wells Fargo",
+    "industry": "Banking",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹19.2 LPA",
+    "skills": [
+      "Python",
+      "Spark"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 259,
+    "posted_at": "8 days ago",
+    "deadline": "2026-04-22",
+    "openings": 6
+  },
+  {
+    "id": "job_0160",
+    "title": "Data Science Intern",
+    "company": "Razorpay",
+    "industry": "FinTech",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹70k/month",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Pandas"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 309,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-14",
+    "openings": 8
+  },
+  {
+    "id": "job_0161",
+    "title": "Product Manager",
+    "company": "Cognizant",
+    "industry": "IT/Software",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹17.1 LPA",
+    "skills": [
+      "Communication",
+      "Roadmapping",
+      "SQL",
+      "Analytics"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 115,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-15",
+    "openings": 3
+  },
+  {
+    "id": "job_0162",
+    "title": "QA Engineer",
+    "company": "IBM",
+    "industry": "IT Services",
+    "location": "Pune",
+    "type": "Internship",
+    "salary": "₹32k/month",
+    "skills": [
+      "JIRA",
+      "Python",
+      "SQL"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 174,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-25",
+    "openings": 8
+  },
+  {
+    "id": "job_0163",
+    "title": "Data Engineer",
+    "company": "Goldman Sachs",
+    "industry": "Finance",
+    "location": "Pune",
+    "type": "Internship",
+    "salary": "₹87k/month",
+    "skills": [
+      "Kafka",
+      "Airflow",
+      "Python"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 248,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-21",
+    "openings": 13
+  },
+  {
+    "id": "job_0164",
+    "title": "Product Manager",
+    "company": "Tata Consultancy Services",
+    "industry": "IT/Software",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "salary": "₹15.7 LPA",
+    "skills": [
+      "Analytics",
+      "Communication"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 291,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-08",
+    "openings": 6
+  },
+  {
+    "id": "job_0165",
+    "title": "Data Analyst",
+    "company": "Cisco",
+    "industry": "Networking",
+    "location": "Mumbai",
+    "type": "Internship",
+    "salary": "₹23k/month",
+    "skills": [
+      "Tableau",
+      "SQL",
+      "Excel"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 64,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-07",
+    "openings": 15
+  },
+  {
+    "id": "job_0166",
+    "title": "Cybersecurity Analyst",
+    "company": "Adobe",
+    "industry": "Technology",
+    "location": "Kolkata",
+    "type": "Full-Time",
+    "salary": "₹12.9 LPA",
+    "skills": [
+      "Python",
+      "Network Security"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 96,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-26",
+    "openings": 6
+  },
+  {
+    "id": "job_0167",
+    "title": "QA Engineer",
+    "company": "Wells Fargo",
+    "industry": "Banking",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹13.2 LPA",
+    "skills": [
+      "Postman",
+      "Python"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 353,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-17",
+    "openings": 12
+  },
+  {
+    "id": "job_0168",
+    "title": "System Analyst",
+    "company": "Microsoft",
+    "industry": "Technology",
+    "location": "Chandigarh",
+    "type": "Internship",
+    "salary": "₹42k/month",
+    "skills": [
+      "Java",
+      "SQL"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 371,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-09",
+    "openings": 15
+  },
+  {
+    "id": "job_0169",
+    "title": "Business Analyst",
+    "company": "Salesforce",
+    "industry": "CRM/SaaS",
+    "location": "Noida",
+    "type": "Contract",
+    "salary": "₹15.6 LPA",
+    "skills": [
+      "JIRA",
+      "Excel"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 366,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-14",
+    "openings": 3
+  },
+  {
+    "id": "job_0170",
+    "title": "Data Engineer",
+    "company": "Freshworks",
+    "industry": "SaaS/Software",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "salary": "₹17.5 LPA",
+    "skills": [
+      "SQL",
+      "Python",
+      "Airflow",
+      "Kafka"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 273,
+    "posted_at": "12 days ago",
+    "deadline": "2026-04-29",
+    "openings": 4
+  },
+  {
+    "id": "job_0171",
+    "title": "DevOps Engineer",
+    "company": "Meesho",
+    "industry": "E-Commerce",
+    "location": "Ahmedabad",
+    "type": "Full-Time",
+    "salary": "₹16.1 LPA",
+    "skills": [
+      "Docker",
+      "Linux",
+      "CI/CD"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 247,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-28",
+    "openings": 4
+  },
+  {
+    "id": "job_0172",
+    "title": "Product Manager",
+    "company": "Wipro",
+    "industry": "IT/Software",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹23.8 LPA",
+    "skills": [
+      "Communication",
+      "Analytics",
+      "SQL",
+      "Agile"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 242,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-25",
+    "openings": 10
+  },
+  {
+    "id": "job_0173",
+    "title": "Frontend Developer",
+    "company": "Oracle",
+    "industry": "Enterprise Software",
+    "location": "Ahmedabad",
+    "type": "Internship",
+    "salary": "₹40k/month",
+    "skills": [
+      "TypeScript",
+      "React",
+      "CSS",
+      "JavaScript"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 255,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-24",
+    "openings": 3
+  },
+  {
+    "id": "job_0174",
+    "title": "System Analyst",
+    "company": "Freshworks",
+    "industry": "SaaS/Software",
+    "location": "Gurgaon",
+    "type": "Internship",
+    "salary": "₹51k/month",
+    "skills": [
+      "SQL",
+      "Java"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 308,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-22",
+    "openings": 11
+  },
+  {
+    "id": "job_0175",
+    "title": "Cybersecurity Analyst",
+    "company": "Deloitte",
+    "industry": "Consulting",
+    "location": "Gurgaon",
+    "type": "Contract",
+    "salary": "₹10.8 LPA",
+    "skills": [
+      "Linux",
+      "Python",
+      "SIEM"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 239,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-08",
+    "openings": 15
+  },
+  {
+    "id": "job_0176",
+    "title": "Cloud Engineer",
+    "company": "Barclays",
+    "industry": "Banking",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹23.7 LPA",
+    "skills": [
+      "Kubernetes",
+      "Azure",
+      "Terraform",
+      "AWS"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 378,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-24",
+    "openings": 8
+  },
+  {
+    "id": "job_0177",
+    "title": "SDE Intern",
+    "company": "Microsoft",
+    "industry": "Technology",
+    "location": "Hyderabad",
+    "type": "Internship",
+    "salary": "₹80k/month",
+    "skills": [
+      "C#",
+      ".NET",
+      "Azure",
+      "SQL"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 367,
+    "posted_at": "Today",
+    "deadline": "2026-04-23",
+    "openings": 6
+  },
+  {
+    "id": "job_0178",
+    "title": "DevOps Engineer",
+    "company": "Wipro",
+    "industry": "IT/Software",
+    "location": "Gurgaon",
+    "type": "Internship",
+    "salary": "₹44k/month",
+    "skills": [
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Linux"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 182,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-14",
+    "openings": 12
+  },
+  {
+    "id": "job_0179",
+    "title": "Frontend Developer",
+    "company": "PhonePe",
+    "industry": "FinTech",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹8.6 LPA",
+    "skills": [
+      "CSS",
+      "TypeScript",
+      "HTML"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 347,
+    "posted_at": "Today",
+    "deadline": "2026-04-24",
+    "openings": 10
+  },
+  {
+    "id": "job_0180",
+    "title": "Embedded Systems Engineer",
+    "company": "McKinsey",
+    "industry": "Consulting",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹12.1 LPA",
+    "skills": [
+      "UART",
+      "Arduino",
+      "C",
+      "RTOS"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 314,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-06",
+    "openings": 15
+  },
+  {
+    "id": "job_0181",
+    "title": "QA Engineer Intern",
+    "company": "Adobe",
+    "industry": "Technology",
+    "location": "Noida",
+    "type": "Internship",
+    "salary": "₹45k/month",
+    "skills": [
+      "Selenium",
+      "Python",
+      "JIRA",
+      "Postman"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 168,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-19",
+    "openings": 4
+  },
+  {
+    "id": "job_0182",
+    "title": "DevOps Engineer",
+    "company": "PolicyBazaar",
+    "industry": "InsurTech",
+    "location": "Hyderabad",
+    "type": "Internship",
+    "salary": "₹60k/month",
+    "skills": [
+      "CI/CD",
+      "Docker"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 175,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-08",
+    "openings": 9
+  },
+  {
+    "id": "job_0183",
+    "title": "Cybersecurity Analyst",
+    "company": "PolicyBazaar",
+    "industry": "InsurTech",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹13.3 LPA",
+    "skills": [
+      "Python",
+      "SIEM",
+      "Network Security",
+      "Firewalls"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 306,
+    "posted_at": "8 days ago",
+    "deadline": "2026-04-17",
+    "openings": 11
+  },
+  {
+    "id": "job_0184",
+    "title": "Software Engineer",
+    "company": "Wipro",
+    "industry": "IT/Software",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹10.4 LPA",
+    "skills": [
+      "System Design",
+      "Git"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 72,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-18",
+    "openings": 4
+  },
+  {
+    "id": "job_0185",
+    "title": "Embedded Systems Engineer",
+    "company": "Razorpay",
+    "industry": "FinTech",
+    "location": "Kolkata",
+    "type": "Full-Time",
+    "salary": "₹6.5 LPA",
+    "skills": [
+      "RTOS",
+      "C++",
+      "UART"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 140,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-27",
+    "openings": 6
+  },
+  {
+    "id": "job_0186",
+    "title": "Business Analyst",
+    "company": "Tata Consultancy Services",
+    "industry": "IT/Software",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹12.6 LPA",
+    "skills": [
+      "SQL",
+      "JIRA",
+      "Requirements Gathering",
+      "Power BI"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 202,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-09",
+    "openings": 8
+  },
+  {
+    "id": "job_0187",
+    "title": "System Analyst",
+    "company": "Uber",
+    "industry": "Mobility/Tech",
+    "location": "Noida",
+    "type": "Internship",
+    "salary": "₹32k/month",
+    "skills": [
+      "Agile",
+      "UML"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 339,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-13",
+    "openings": 4
+  },
+  {
+    "id": "job_0188",
+    "title": "System Analyst",
+    "company": "Tech Mahindra",
+    "industry": "IT/Software",
+    "location": "Pune",
+    "type": "Internship",
+    "salary": "₹31k/month",
+    "skills": [
+      "Agile",
+      "SQL",
+      "Java"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 107,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-22",
+    "openings": 12
+  },
+  {
+    "id": "job_0189",
+    "title": "System Design Engineer",
+    "company": "Zomato",
+    "industry": "FoodTech",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹16 LPA",
+    "skills": [
+      "Java",
+      "System Design",
+      "Kafka",
+      "Redis"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 312,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-17",
+    "openings": 8
+  },
+  {
+    "id": "job_0190",
+    "title": "Embedded Systems Engineer",
+    "company": "NVIDIA",
+    "industry": "Semiconductors",
+    "location": "Pune",
+    "type": "Full-Time",
+    "salary": "₹22 LPA",
+    "skills": [
+      "C",
+      "C++",
+      "RTOS",
+      "CUDA",
+      "Linux"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 98,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-15",
+    "openings": 2
+  },
+  {
+    "id": "job_0191",
+    "title": "System Analyst",
+    "company": "HCL Technologies",
+    "industry": "IT/Software",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "₹15.2 LPA",
+    "skills": [
+      "Java",
+      "SQL",
+      "UML",
+      "Business Analysis"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 235,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-15",
+    "openings": 15
+  },
+  {
+    "id": "job_0192",
+    "title": "Backend Developer",
+    "company": "Oracle",
+    "industry": "Enterprise Software",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹35k/month",
+    "skills": [
+      "Python",
+      "REST APIs",
+      "Docker",
+      "Node.js"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 142,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-14",
+    "openings": 2
+  },
+  {
+    "id": "job_0193",
+    "title": "Cloud Engineer",
+    "company": "Uber",
+    "industry": "Mobility/Tech",
+    "location": "Delhi NCR",
+    "type": "Internship",
+    "salary": "₹65k/month",
+    "skills": [
+      "Terraform",
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 98,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-11",
+    "openings": 3
+  },
+  {
+    "id": "job_0194",
+    "title": "Data Analyst",
+    "company": "BCG",
+    "industry": "Consulting",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "₹5.0 LPA",
+    "skills": [
+      "Tableau",
+      "Excel",
+      "Power BI",
+      "Python"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 211,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-29",
+    "openings": 6
+  },
+  {
+    "id": "job_0195",
+    "title": "ML Engineer",
+    "company": "Infosys",
+    "industry": "IT/Software",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹28.8 LPA",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Machine Learning",
+      "TensorFlow"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 415,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-09",
+    "openings": 4
+  },
+  {
+    "id": "job_0196",
+    "title": "Backend Developer",
+    "company": "BCG",
+    "industry": "Consulting",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹15.3 LPA",
+    "skills": [
+      "REST APIs",
+      "Docker"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 371,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-08",
+    "openings": 12
+  },
+  {
+    "id": "job_0197",
+    "title": "Full Stack Developer",
+    "company": "Atlassian",
+    "industry": "Software/SaaS",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹25.0 LPA",
+    "skills": [
+      "React",
+      "Git",
+      "MongoDB"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 50,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-07",
+    "openings": 10
+  },
+  {
+    "id": "job_0198",
+    "title": "Product Manager",
+    "company": "McKinsey",
+    "industry": "Consulting",
+    "location": "Kolkata",
+    "type": "Full-Time",
+    "salary": "₹25.9 LPA",
+    "skills": [
+      "Roadmapping",
+      "Communication",
+      "Agile",
+      "SQL"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 224,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-07",
+    "openings": 13
+  },
+  {
+    "id": "job_0199",
+    "title": "Business Analyst",
+    "company": "Byju's",
+    "industry": "EdTech",
+    "location": "Remote",
+    "type": "Full-Time",
+    "salary": "₹11.9 LPA",
+    "skills": [
+      "JIRA",
+      "Excel",
+      "Requirements Gathering",
+      "SQL"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 316,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-17",
+    "openings": 13
+  },
+  {
+    "id": "job_0200",
+    "title": "Business Analyst",
+    "company": "Microsoft",
+    "industry": "Technology",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹15.4 LPA",
+    "skills": [
+      "Excel",
+      "Power BI",
+      "JIRA"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 469,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-29",
+    "openings": 8
+  },
+  {
+    "id": "job_0201",
+    "title": "QA Engineer",
+    "company": "Uber",
+    "industry": "Mobility/Tech",
+    "location": "Delhi NCR",
+    "type": "Full-Time",
+    "salary": "₹12.8 LPA",
+    "skills": [
+      "SQL",
+      "JIRA",
+      "Python",
+      "Postman"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 171,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-20",
+    "openings": 15
+  },
+  {
+    "id": "job_0202",
+    "title": "Frontend Developer",
+    "company": "Goldman Sachs",
+    "industry": "Finance",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹46k/month",
+    "skills": [
+      "JavaScript",
+      "React",
+      "CSS",
+      "HTML"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 152,
+    "posted_at": "8 days ago",
+    "deadline": "2026-04-06",
+    "openings": 12
+  },
+  {
+    "id": "job_0203",
+    "title": "DevOps Engineer",
+    "company": "Airbnb",
+    "industry": "Travel/Tech",
+    "location": "Remote",
+    "type": "Contract",
+    "salary": "₹9.6 LPA",
+    "skills": [
+      "Kubernetes",
+      "AWS",
+      "Docker",
+      "CI/CD"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 262,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-23",
+    "openings": 13
+  },
+  {
+    "id": "job_0204",
+    "title": "Embedded Systems Engineer",
+    "company": "SAP",
+    "industry": "Enterprise Software",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹17.9 LPA",
+    "skills": [
+      "Arduino",
+      "UART"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 140,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-28",
+    "openings": 13
+  },
+  {
+    "id": "job_0205",
+    "title": "DevOps Engineer",
+    "company": "Goldman Sachs",
+    "industry": "Finance",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹12.0 LPA",
+    "skills": [
+      "Linux",
+      "CI/CD",
+      "Docker"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 246,
+    "posted_at": "8 days ago",
+    "deadline": "2026-04-19",
+    "openings": 2
+  },
+  {
+    "id": "job_0206",
+    "title": "Full Stack Developer",
+    "company": "Unacademy",
+    "industry": "EdTech",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹11.1 LPA",
+    "skills": [
+      "Node.js",
+      "React",
+      "MongoDB",
+      "Git"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 467,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-25",
+    "openings": 8
+  },
+  {
+    "id": "job_0207",
+    "title": "Frontend Developer",
+    "company": "Cognizant",
+    "industry": "IT/Software",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹19.5 LPA",
+    "skills": [
+      "TypeScript",
+      "HTML"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 207,
+    "posted_at": "14 days ago",
+    "deadline": "2026-04-23",
+    "openings": 1
+  },
+  {
+    "id": "job_0208",
+    "title": "Frontend Developer",
+    "company": "Nykaa",
+    "industry": "E-Commerce/Beauty",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹15.3 LPA",
+    "skills": [
+      "React",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 404,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-12",
+    "openings": 15
+  },
+  {
+    "id": "job_0209",
+    "title": "Data Engineer",
+    "company": "Ola",
+    "industry": "Mobility",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹18.6 LPA",
+    "skills": [
+      "Python",
+      "Spark",
+      "SQL"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 199,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-13",
+    "openings": 1
+  },
+  {
+    "id": "job_0210",
+    "title": "Back-End Engineer",
+    "company": "Zerodha",
+    "industry": "FinTech",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹14 LPA",
+    "skills": [
+      "Go",
+      "Python",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 189,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-21",
+    "openings": 4
+  },
+  {
+    "id": "job_0211",
+    "title": "Cybersecurity Analyst",
+    "company": "Paytm",
+    "industry": "FinTech",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹23.6 LPA",
+    "skills": [
+      "Network Security",
+      "SIEM",
+      "Linux"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 296,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-19",
+    "openings": 7
+  },
+  {
+    "id": "job_0212",
+    "title": "Embedded Systems Engineer",
+    "company": "BCG",
+    "industry": "Consulting",
+    "location": "Chennai",
+    "type": "Internship",
+    "salary": "₹25k/month",
+    "skills": [
+      "C++",
+      "UART",
+      "Arduino"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 91,
+    "posted_at": "8 days ago",
+    "deadline": "2026-04-24",
+    "openings": 4
+  },
+  {
+    "id": "job_0213",
+    "title": "Backend Developer",
+    "company": "Amazon",
+    "industry": "E-Commerce/Tech",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹17.8 LPA",
+    "skills": [
+      "Python",
+      "SQL",
+      "REST APIs"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 367,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-16",
+    "openings": 14
+  },
+  {
+    "id": "job_0214",
+    "title": "Frontend Developer",
+    "company": "IBM",
+    "industry": "IT Services",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹10.8 LPA",
+    "skills": [
+      "CSS",
+      "TypeScript"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 217,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-26",
+    "openings": 4
+  },
+  {
+    "id": "job_0215",
+    "title": "ML Engineer",
+    "company": "PhonePe",
+    "industry": "FinTech",
+    "location": "Delhi NCR",
+    "type": "Full-Time",
+    "salary": "₹21.3 LPA",
+    "skills": [
+      "Python",
+      "Scikit-learn"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 124,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-24",
+    "openings": 1
+  },
+  {
+    "id": "job_0216",
+    "title": "Cloud Engineer",
+    "company": "Wipro",
+    "industry": "IT/Software",
+    "location": "Gurgaon",
+    "type": "Full-Time",
+    "salary": "₹14.8 LPA",
+    "skills": [
+      "Kubernetes",
+      "Azure"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 225,
+    "posted_at": "13 days ago",
+    "deadline": "2026-04-18",
+    "openings": 4
+  },
+  {
+    "id": "job_0217",
+    "title": "ML Engineer",
+    "company": "PhonePe",
+    "industry": "FinTech",
+    "location": "Delhi NCR",
+    "type": "Internship",
+    "salary": "₹54k/month",
+    "skills": [
+      "Machine Learning",
+      "Scikit-learn"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 173,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-26",
+    "openings": 9
+  },
+  {
+    "id": "job_0218",
+    "title": "System Analyst",
+    "company": "Salesforce",
+    "industry": "CRM/SaaS",
+    "location": "Pune",
+    "type": "Full-Time",
+    "salary": "₹6.8 LPA",
+    "skills": [
+      "Business Analysis",
+      "Java"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 405,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-21",
+    "openings": 9
+  },
+  {
+    "id": "job_0219",
+    "title": "Backend Developer",
+    "company": "Goldman Sachs",
+    "industry": "Finance",
+    "location": "Ahmedabad",
+    "type": "Full-Time",
+    "salary": "₹15.9 LPA",
+    "skills": [
+      "Docker",
+      "SQL",
+      "Python"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 189,
+    "posted_at": "8 days ago",
+    "deadline": "2026-04-14",
+    "openings": 1
+  },
+  {
+    "id": "job_0220",
+    "title": "Cloud Engineer",
+    "company": "Zomato",
+    "industry": "FoodTech",
+    "location": "Kolkata",
+    "type": "Full-Time",
+    "salary": "₹20.8 LPA",
+    "skills": [
+      "Azure",
+      "Kubernetes"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 338,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-06",
+    "openings": 3
+  },
+  {
+    "id": "job_0221",
+    "title": "Software Engineer",
+    "company": "Unacademy",
+    "industry": "EdTech",
+    "location": "Pune",
+    "type": "Full-Time",
+    "salary": "₹19.8 LPA",
+    "skills": [
+      "Java",
+      "System Design",
+      "DSA",
+      "Git"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 252,
+    "posted_at": "7 days ago",
+    "deadline": "2026-04-22",
+    "openings": 11
+  },
+  {
+    "id": "job_0222",
+    "title": "QA Engineer",
+    "company": "PhonePe",
+    "industry": "FinTech",
+    "location": "Chennai",
+    "type": "Full-Time",
+    "salary": "₹10.7 LPA",
+    "skills": [
+      "Selenium",
+      "Python",
+      "SQL"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 191,
+    "posted_at": "3 days ago",
+    "deadline": "2026-04-09",
+    "openings": 3
+  },
+  {
+    "id": "job_0223",
+    "title": "DevOps Engineer",
+    "company": "Wells Fargo",
+    "industry": "Banking",
+    "location": "Noida",
+    "type": "Contract",
+    "salary": "₹19.8 LPA",
+    "skills": [
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 217,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-09",
+    "openings": 7
+  },
+  {
+    "id": "job_0224",
+    "title": "Software Engineer",
+    "company": "Groww",
+    "industry": "FinTech",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹16.0 LPA",
+    "skills": [
+      "Git",
+      "System Design",
+      "DSA"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 273,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-16",
+    "openings": 9
+  },
+  {
+    "id": "job_0225",
+    "title": "Data Analyst",
+    "company": "Microsoft",
+    "industry": "Technology",
+    "location": "Kolkata",
+    "type": "Internship",
+    "salary": "₹44k/month",
+    "skills": [
+      "Excel",
+      "Python"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 394,
+    "posted_at": "8 days ago",
+    "deadline": "2026-04-20",
+    "openings": 8
+  },
+  {
+    "id": "job_0226",
+    "title": "Data Analyst",
+    "company": "PhonePe",
+    "industry": "FinTech",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹15.6 LPA",
+    "skills": [
+      "Power BI",
+      "Tableau",
+      "Excel",
+      "SQL"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 211,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-19",
+    "openings": 15
+  },
+  {
+    "id": "job_0227",
+    "title": "Embedded Systems Engineer",
+    "company": "Amazon",
+    "industry": "E-Commerce/Tech",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹21.6 LPA",
+    "skills": [
+      "Arduino",
+      "RTOS"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 381,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-09",
+    "openings": 12
+  },
+  {
+    "id": "job_0228",
+    "title": "Cybersecurity Analyst",
+    "company": "Adobe",
+    "industry": "Technology",
+    "location": "Ahmedabad",
+    "type": "Full-Time",
+    "salary": "₹8.2 LPA",
+    "skills": [
+      "Firewalls",
+      "SIEM",
+      "Python",
+      "Linux"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 242,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-10",
+    "openings": 7
+  },
+  {
+    "id": "job_0229",
+    "title": "Full Stack Developer",
+    "company": "Infosys",
+    "industry": "IT/Software",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹15.8 LPA",
+    "skills": [
+      "Git",
+      "MongoDB",
+      "React",
+      "SQL"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 188,
+    "posted_at": "8 days ago",
+    "deadline": "2026-04-25",
+    "openings": 10
+  },
+  {
+    "id": "job_0230",
+    "title": "Embedded Systems Engineer",
+    "company": "Freshworks",
+    "industry": "SaaS/Software",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹6.0 LPA",
+    "skills": [
+      "UART",
+      "C++"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 125,
+    "posted_at": "11 days ago",
+    "deadline": "2026-04-07",
+    "openings": 14
+  },
+  {
+    "id": "job_0231",
+    "title": "Data Analyst",
+    "company": "McKinsey",
+    "industry": "Consulting",
+    "location": "Hyderabad",
+    "type": "Contract",
+    "salary": "₹11.8 LPA",
+    "skills": [
+      "Tableau",
+      "Python",
+      "Excel"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 159,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-16",
+    "openings": 12
+  },
+  {
+    "id": "job_0232",
+    "title": "Embedded Systems Engineer",
+    "company": "Deutsche Bank",
+    "industry": "Banking",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹45k/month",
+    "skills": [
+      "RTOS",
+      "C++",
+      "C",
+      "UART"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 353,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-10",
+    "openings": 3
+  },
+  {
+    "id": "job_0233",
+    "title": "Business Analyst",
+    "company": "Flipkart",
+    "industry": "E-Commerce/Tech",
+    "location": "Chandigarh",
+    "type": "Full-Time",
+    "salary": "₹8.9 LPA",
+    "skills": [
+      "Power BI",
+      "Requirements Gathering",
+      "JIRA"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 366,
+    "posted_at": "2 days ago",
+    "deadline": "2026-04-12",
+    "openings": 8
+  },
+  {
+    "id": "job_0234",
+    "title": "Data Engineer",
+    "company": "PhonePe",
+    "industry": "FinTech",
+    "location": "Kolkata",
+    "type": "Full-Time",
+    "salary": "₹17.0 LPA",
+    "skills": [
+      "Airflow",
+      "Kafka",
+      "Spark",
+      "SQL"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 251,
+    "posted_at": "9 days ago",
+    "deadline": "2026-04-11",
+    "openings": 3
+  },
+  {
+    "id": "job_0235",
+    "title": "Cloud Engineer",
+    "company": "Microsoft",
+    "industry": "Technology",
+    "location": "Chennai",
+    "type": "Contract",
+    "salary": "₹21.1 LPA",
+    "skills": [
+      "Terraform",
+      "Kubernetes",
+      "GCP",
+      "AWS"
+    ],
+    "cgpa_cutoff": 7.0,
+    "applicants_count": 210,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-14",
+    "openings": 3
+  },
+  {
+    "id": "job_0236",
+    "title": "Embedded Systems Engineer",
+    "company": "Groww",
+    "industry": "FinTech",
+    "location": "Pune",
+    "type": "Full-Time",
+    "salary": "₹12.0 LPA",
+    "skills": [
+      "C",
+      "RTOS",
+      "UART",
+      "C++"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 301,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-25",
+    "openings": 12
+  },
+  {
+    "id": "job_0237",
+    "title": "Cloud Engineer",
+    "company": "Groww",
+    "industry": "FinTech",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹15.5 LPA",
+    "skills": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 295,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-18",
+    "openings": 10
+  },
+  {
+    "id": "job_0238",
+    "title": "Software Engineer",
+    "company": "Swiggy",
+    "industry": "FoodTech",
+    "location": "Bangalore",
+    "type": "Full-Time",
+    "salary": "₹18 LPA",
+    "skills": [
+      "Java",
+      "Microservices",
+      "Kafka",
+      "SQL"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 445,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-18",
+    "openings": 10
+  },
+  {
+    "id": "job_0239",
+    "title": "Business Analyst",
+    "company": "Infosys",
+    "industry": "IT/Software",
+    "location": "Pune",
+    "type": "Contract",
+    "salary": "₹8.2 LPA",
+    "skills": [
+      "JIRA",
+      "Requirements Gathering"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 332,
+    "posted_at": "5 days ago",
+    "deadline": "2026-04-27",
+    "openings": 6
+  },
+  {
+    "id": "job_0240",
+    "title": "Backend Developer",
+    "company": "Nykaa",
+    "industry": "E-Commerce/Beauty",
+    "location": "Mumbai",
+    "type": "Full-Time",
+    "salary": "₹13.1 LPA",
+    "skills": [
+      "REST APIs",
+      "Python"
+    ],
+    "cgpa_cutoff": 8.0,
+    "applicants_count": 499,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-18",
+    "openings": 11
+  },
+  {
+    "id": "job_0241",
+    "title": "Cloud Engineer",
+    "company": "NVIDIA",
+    "industry": "Semiconductors",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹35 LPA",
+    "skills": [
+      "CUDA",
+      "Python",
+      "AWS",
+      "Linux"
+    ],
+    "cgpa_cutoff": 8.5,
+    "applicants_count": 127,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-16",
+    "openings": 3
+  },
+  {
+    "id": "job_0242",
+    "title": "DevOps Engineer",
+    "company": "NVIDIA",
+    "industry": "Semiconductors",
+    "location": "Delhi NCR",
+    "type": "Full-Time",
+    "salary": "₹20.2 LPA",
+    "skills": [
+      "Linux",
+      "CI/CD",
+      "AWS",
+      "Docker"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 313,
+    "posted_at": "Today",
+    "deadline": "2026-04-12",
+    "openings": 12
+  },
+  {
+    "id": "job_0243",
+    "title": "Embedded Systems Engineer",
+    "company": "Uber",
+    "industry": "Mobility/Tech",
+    "location": "Bangalore",
+    "type": "Contract",
+    "salary": "₹16.8 LPA",
+    "skills": [
+      "UART",
+      "C++",
+      "Arduino",
+      "C"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 216,
+    "posted_at": "4 days ago",
+    "deadline": "2026-04-16",
+    "openings": 6
+  },
+  {
+    "id": "job_0244",
+    "title": "Full Stack Developer",
+    "company": "Microsoft",
+    "industry": "Technology",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹14.8 LPA",
+    "skills": [
+      "SQL",
+      "Node.js"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 371,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-14",
+    "openings": 15
+  },
+  {
+    "id": "job_0245",
+    "title": "Embedded Systems Engineer",
+    "company": "Accenture",
+    "industry": "Consulting",
+    "location": "Remote",
+    "type": "Contract",
+    "salary": "₹18.0 LPA",
+    "skills": [
+      "Arduino",
+      "C"
+    ],
+    "cgpa_cutoff": 9.0,
+    "applicants_count": 268,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-06",
+    "openings": 10
+  },
+  {
+    "id": "job_0246",
+    "title": "QA Engineer",
+    "company": "Salesforce",
+    "industry": "CRM/SaaS",
+    "location": "Ahmedabad",
+    "type": "Internship",
+    "salary": "₹24k/month",
+    "skills": [
+      "Selenium",
+      "Postman"
+    ],
+    "cgpa_cutoff": 6.5,
+    "applicants_count": 324,
+    "posted_at": "12 days ago",
+    "deadline": "2026-04-29",
+    "openings": 10
+  },
+  {
+    "id": "job_0247",
+    "title": "Business Analyst",
+    "company": "Microsoft",
+    "industry": "Technology",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹59k/month",
+    "skills": [
+      "Power BI",
+      "JIRA",
+      "Excel",
+      "SQL"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 110,
+    "posted_at": "1 day ago",
+    "deadline": "2026-04-08",
+    "openings": 12
+  },
+  {
+    "id": "job_0248",
+    "title": "DevOps Engineer",
+    "company": "Wells Fargo",
+    "industry": "Banking",
+    "location": "Hyderabad",
+    "type": "Full-Time",
+    "salary": "₹16.1 LPA",
+    "skills": [
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "Linux"
+    ],
+    "cgpa_cutoff": 6.0,
+    "applicants_count": 492,
+    "posted_at": "Today",
+    "deadline": "2026-04-12",
+    "openings": 1
+  },
+  {
+    "id": "job_0249",
+    "title": "Data Engineer",
+    "company": "Cognizant",
+    "industry": "IT/Software",
+    "location": "Chennai",
+    "type": "Contract",
+    "salary": "₹23.3 LPA",
+    "skills": [
+      "SQL",
+      "Spark"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 258,
+    "posted_at": "10 days ago",
+    "deadline": "2026-04-08",
+    "openings": 11
+  },
+  {
+    "id": "job_0250",
+    "title": "Data Analyst",
+    "company": "Zerodha",
+    "industry": "FinTech",
+    "location": "Noida",
+    "type": "Full-Time",
+    "salary": "₹12.5 LPA",
+    "skills": [
+      "SQL",
+      "Power BI",
+      "Python",
+      "Tableau"
+    ],
+    "cgpa_cutoff": 7.5,
+    "applicants_count": 61,
+    "posted_at": "6 days ago",
+    "deadline": "2026-04-22",
+    "openings": 1
+  }
+]
