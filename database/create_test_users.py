@@ -2,7 +2,7 @@ import mysql.connector
 import bcrypt
 
 try:
-    conn = mysql.connector.connect(host='localhost', port=3306, user='root', password='spartan15#$$', database='placement_db')
+    conn = mysql.connector.connect(host='localhost', port=3306, user='root', password='Mysql@20', database='placement_db')
     cursor = conn.cursor(dictionary=True)
     
     # Check if student1 exists in Users
@@ -13,10 +13,10 @@ try:
         student = cursor.fetchone()
         
         if student:
-            pw_hash = bcrypt.hashpw('password123'.encode(), bcrypt.gensalt()).decode()
+            pw_hash = bcrypt.hashpw('Placement@2026!'.encode(), bcrypt.gensalt()).decode()
             cursor.execute('INSERT INTO Users (username, password_hash, role, entity_id) VALUES (%s, %s, %s, %s)',
                            ('student1', pw_hash, 'student', student['student_id']))
-            print(f"Created student login -> Username: student1 | Password: password123 | linked to: {student['full_name']}")
+            print(f"Created student login -> Username: student1 | Password: Placement@2026! | linked to: {student['full_name']}")
     
     # Check if recruiter exists in Users
     cursor.execute('SELECT user_id FROM Users WHERE username=%s', ('techcorp',))
@@ -26,10 +26,10 @@ try:
         company = cursor.fetchone()
         
         if company:
-            pw_hash = bcrypt.hashpw('password123'.encode(), bcrypt.gensalt()).decode()
+            pw_hash = bcrypt.hashpw('Placement@2026!'.encode(), bcrypt.gensalt()).decode()
             cursor.execute('INSERT INTO Users (username, password_hash, role, entity_id) VALUES (%s, %s, %s, %s)',
                            ('techcorp', pw_hash, 'company', company['company_id']))
-            print(f"Created company login -> Username: techcorp | Password: password123 | linked to: {company['company_name']}")
+            print(f"Created company login -> Username: techcorp | Password: Placement@2026! | linked to: {company['company_name']}")
 
     conn.commit()
     cursor.close()

@@ -3,18 +3,31 @@
 # ============================================================
 
 import mysql.connector
+from mysql.connector import pooling
 from config import DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_NAME
 
 
-def get_connection():
-    """Returns a fresh MySQL connection."""
-    return mysql.connector.connect(
+# Create a global connection pool
+try:
+    db_pool = mysql.connector.pooling.MySQLConnectionPool(
+        pool_name="mypool",
+        pool_size=10,
+        pool_reset_session=True,
         host=DB_HOST,
         port=DB_PORT,
         user=DB_USER,
         password=DB_PASSWORD,
         database=DB_NAME
     )
+except Exception as e:
+    print(f"Error initializing connection pool: {e}")
+    db_pool = None
+
+def get_connection():
+    """Returns a fresh MySQL connection from the pool."""
+    if not db_pool:
+        raise Exception("Database connection pool is not initialized.")
+    return db_pool.get_connection()
 
 
 def query(sql, params=None, fetchone=False, fetchall=False, commit=False):
@@ -42,6 +55,7 @@ def query(sql, params=None, fetchone=False, fetchall=False, commit=False):
 
     finally:
         cursor.close()
+        # Returns the connection to the pool
         conn.close()
 
 

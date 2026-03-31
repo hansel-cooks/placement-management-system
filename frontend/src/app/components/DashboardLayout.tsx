@@ -20,6 +20,7 @@ export function DashboardLayout() {
         setUser({
           user_id: res.data.user_id,
           username: res.data.username,
+          name: res.data.name,
           role: res.data.role,
           entity_id: res.data.entity_id,
         });

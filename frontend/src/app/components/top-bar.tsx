@@ -106,10 +106,7 @@ export function TopBar() {
           )}
         </div>
 
-        {/* Quick Actions */}
-        <button className="px-4 py-2.5 bg-[#0B1426] text-white rounded-xl hover:bg-[#111827] transition-colors text-sm font-medium">
-          {user?.role === 'student' ? 'Quick Apply' : 'Post Job'}
-        </button>
+        {/* Quick Actions (Removed) */}
 
         {/* Profile */}
         <div className="relative" ref={profileRef}>
@@ -121,8 +118,8 @@ export function TopBar() {
             aria-label="Profile menu"
           >
             <div className="w-8 h-8 rounded-full bg-[#B6922E]/10 flex items-center justify-center">
-              <span className="text-[#B6922E] text-sm font-semibold">
-                {user?.username?.charAt(0) || 'S'}
+              <span className="text-[#B6922E] text-sm font-semibold uppercase">
+                {(user?.name || user?.username || 'S').charAt(0)}
               </span>
             </div>
             <ChevronDown className={`w-4 h-4 text-[#5B6472] transition-transform duration-200 ${showProfile ? 'rotate-180' : ''}`} />
@@ -132,7 +129,7 @@ export function TopBar() {
           {showProfile && (
             <div className="absolute right-0 mt-2 w-56 bg-white border border-[#E5E7EB] rounded-2xl shadow-[0_12px_24px_rgba(0,0,0,0.1)] overflow-hidden animate-in fade-in slide-in-from-top-2 duration-200">
               <div className="px-4 py-3 border-b border-[#F3F4F6]">
-                <p className="text-sm font-semibold text-[#0B1426]">{user?.username || 'User'}</p>
+                <p className="text-sm font-semibold text-[#0B1426] truncate">{user?.name || user?.username || 'User'}</p>
                 <p className="text-xs text-[#5B6472] truncate">{user?.role}</p>
               </div>
               <div className="p-1.5">

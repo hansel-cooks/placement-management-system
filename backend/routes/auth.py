@@ -13,11 +13,23 @@ auth_bp = Blueprint("auth", __name__)
 # Helper: build a safe user response (no password)
 # ----------------------------------------------------------
 def safe_user(user):
+    name = user["username"]
+    role = user["role"]
+    eid  = user["entity_id"]
+    
+    if role == "student" and eid:
+        s = query("SELECT full_name FROM Students WHERE student_id = %s", (eid,), fetchone=True)
+        if s: name = s["full_name"]
+    elif role == "company" and eid:
+        c = query("SELECT company_name FROM Companies WHERE company_id = %s", (eid,), fetchone=True)
+        if c: name = c["company_name"]
+        
     return {
         "user_id":   user["user_id"],
         "username":  user["username"],
-        "role":      user["role"],
-        "entity_id": user["entity_id"],
+        "name":      name,
+        "role":      role,
+        "entity_id": eid,
     }
 
 

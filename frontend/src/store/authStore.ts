@@ -6,6 +6,7 @@ export type UserRole = 'student' | 'company' | 'admin';
 export interface User {
   user_id: number;
   username: string;
+  name?: string;
   role: UserRole;
   entity_id: number;
 }

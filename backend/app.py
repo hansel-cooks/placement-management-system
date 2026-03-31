@@ -28,7 +28,8 @@ if config.SESSION_TYPE == "redis" and config.REDIS_URL:
     app.config["SESSION_REDIS"] = config.REDIS_URL
 
 # Initialise server-side sessions
-Session(app)
+if config.SESSION_TYPE != "null":
+    Session(app)
 
 # Allow React frontend to talk to this backend
 default_origins = [
@@ -59,7 +60,10 @@ def enforce_csrf():
         return None
     if request.method in SAFE_METHODS:
         return None
-    # Only enforce CSRF if the request has a session (logged in) OR tries to use one.
+    # Skip CSRF check for login and register, as they establish the session
+    if request.path in ["/api/auth/login", "/api/auth/register"]:
+        return None
+        
     expected = session.get(config.CSRF_SESSION_KEY)
     provided = request.headers.get(config.CSRF_HEADER)
     if not expected or not provided or provided != expected:
@@ -104,5 +108,5 @@ def server_error(e):
 # Run
 # ----------------------------------------------------------
 if __name__ == "__main__":
-    app.run(debug=True, port=5000, host="0.0.0.0")
+    app.run(debug=False, port=5000, host="0.0.0.0")
     

@@ -25,6 +25,7 @@ export function LoginPage() {
       setUser({
         user_id: user.user_id,
         username: user.username,
+        name: user.name,
         role: user.role,
         entity_id: user.entity_id,
       });
